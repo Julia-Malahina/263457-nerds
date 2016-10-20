@@ -38,17 +38,35 @@
 	</header>
 	<main class="container ">
 		<section class="site-bar">
-		<form>
-
-		<label for="Adaptive" >Адаптивная</label>
-		<input type="radio" name="price" id="Adaptive" value="Adaptive" checked>
-		<label for="Fixed" >Фиксированная</label>
-		<input type="radio" name="price" id="Fixed" value="Fixed">
-		<label for="Rubber" >Резиновая
-		<input type="radio" name="price" id="Rubber" value="Rubber"></label>
-		</form>
-
-			
+			<form>
+				<fieldset>
+					<legend>Стоимость</legend>
+					от 0
+					<input type="range" min="0" max="15000">до 15000</fieldset>
+				<fieldset>
+					<legend>Сетка</legend>
+					<label for="Adaptive" >Адаптивная</label>
+					<input type="radio" name="price" id="Adaptive" value="Adaptive" checked>	
+					<label for="Fixed" >Фиксированная</label>
+					<input type="radio" name="price" id="Fixed" value="Fixed">	
+					<label for="Rubber" >Резиновая</label>
+				</fieldset>
+				<fieldset>
+					<legend>Особенности</legend>
+					<input type="radio" name="price" id="Rubber" value="Rubber">	
+					<label for="slider">Слайдер</label>
+					<input type="checkbox" name="slider" id="slider" checked>	
+					<label for="block-advantage">Блок преимуществ</label>
+					<input type="checkbox" name="block-advantage" id="block-advantage">	
+					<label for="news">Новости</label>
+					<input type="checkbox" name="news" id="news" checked>	
+					<label for="gallery">Галерея</label>
+					<input type="checkbox" name="gallery" id="gallery">	
+					<label for="basket">Корзина</label>
+					<input type="checkbox" name="basket" id="basket"></form>
+			</fieldset>
+			<button type="submit">Показать</button>
+			</form>
 		</section>
 	</main>
 
