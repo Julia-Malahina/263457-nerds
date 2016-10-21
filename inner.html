@@ -10,7 +10,8 @@
 		<div class="container clearfix">
 			<div class="logo">
 				<a href="#" title="Логотип" >
-					<img src="img/logo.png" alt="Nerds"  width="139" height="56"></a>
+				  <img src="img/logo.png" alt="Nerds"  width="139" height="56">
+				</a>
 			</div>
 			<nav class="main-menu">
 				<ul class="menu">
@@ -31,45 +32,94 @@
 			<div class="image-bascet">
 				<a class="bascet" href="#">Корзина</a>
 			</div>
-		    <div>
-			    <h1>Магазин готовых шаблонов</h1>
-		    </div>
-	  </div>
+			<div>
+				<h1>Магазин готовых шаблонов</h1>
+			</div>
+		</div>
 	</header>
-	<main class="container ">
-		<section class="site-bar">
-			<form>
-				<fieldset>
-					<legend>Стоимость</legend>
-					от 0
-					<input type="range" min="0" max="15000">до 15000</fieldset>
-				<fieldset>
-					<legend>Сетка</legend>
-					<label for="Adaptive" >Адаптивная</label>
-					<input type="radio" name="price" id="Adaptive" value="Adaptive" checked>	
-					<label for="Fixed" >Фиксированная</label>
-					<input type="radio" name="price" id="Fixed" value="Fixed">	
-					<label for="Rubber" >Резиновая</label>
-				</fieldset>
-				<fieldset>
-					<legend>Особенности</legend>
-					<input type="radio" name="price" id="Rubber" value="Rubber">	
+	<main class="container">
+		<section class="choice-form">
+			<form action="#" method="post">
+				<div class="price-range">
+					<p>Стоимость</p>
+					<label for="price range" ></label>
+					<input type="range" id="price-range" min="0" max="15000">от 0 до 15 000</div>
+				<div class="variations-meshes" >
+					<p>Сетка</p>
+					<label for="Adaptive">Адаптивная</label>
+					<input type="radio" name="price" id="Adaptive" value="Adaptive" checked>
+					<label for="Fixed">Фиксированная</label>
+					<input type="radio" name="price" id="Fixed" value="Fixed">
+					<label for="Rubber">Резиновая</label>
+					<input type="radio" name="price" id="Rubber" value="Rubber"></div>
+				<div class="features">
+					<p>Особенности</p>
 					<label for="slider">Слайдер</label>
-					<input type="checkbox" name="slider" id="slider" checked>	
+					<input type="checkbox" name="slider" id="slider" checked>
 					<label for="block-advantage">Блок преимуществ</label>
-					<input type="checkbox" name="block-advantage" id="block-advantage">	
+					<input type="checkbox" name="block-advantage" id="block-advantage">
 					<label for="news">Новости</label>
-					<input type="checkbox" name="news" id="news" checked>	
+					<input type="checkbox" name="news" id="news" checked>
 					<label for="gallery">Галерея</label>
-					<input type="checkbox" name="gallery" id="gallery">	
+					<input type="checkbox" name="gallery" id="gallery">
 					<label for="basket">Корзина</label>
-					<input type="checkbox" name="basket" id="basket"></form>
-			</fieldset>
-			<button type="submit">Показать</button>
+					<input type="checkbox" name="basket" id="basket"></div>
+				<div class="btn">
+					<button type="submit">Показать</button>
+				</div>
 			</form>
 		</section>
+		<section class="template-selection">
+			<div class="">
+				<img src="http://placehold.it/150x100" width="" height="" alt="Sedona"></div>
+			<div class="">
+				<img src="http://placehold.it/150x100" width="" height="" alt="Borodinski"></div>
+			<div class="">
+				<img src="http://placehold.it/150x100" width="" height="" alt=""></div>
+			<div class="">
+				<img src="http://placehold.it/150x100" width="" height="" alt="Pink"></div>
+			<div class="">
+				<img src="http://placehold.it/150x100" width="" height="" alt="Mishka"></div>
+			<div class="">
+				<img src="http://placehold.it/150x100" width="" height="" alt="Kvast"></div>
+        </section>
 	</main>
 
+
+	<div class="interactive map">
+            <section class="map-form">
+                <div class="map">
+                    <img src="http://placehold.it/150x100" width="" height="" alt="Катра"></div>
+                <div class="pin">Место на карте</div>
+                <div class="form-write">
+                    <h3>Nerds design studio</h3>
+                    <p>
+                        191186, Санкт-Петербург.
+                        <br>
+                        ул. Б.Кошюшенная, д.19/8
+                        <br>тел. +7(812)275-75-75</p>
+                </div>
+                <div>
+                    <a class="btn" href="#" >Напишите нам</a>
+                </div>
+            </section>
+    </div>
+
+
+      <footer class="page-footer">
+            <div class="container clearfix">
+                <section class="footer-social">
+                    <div>
+                        <a href="#" class="social-btn social-vk">Вконтакте</a>
+                        <a href="#" class="social-btn social-fb">Фейсбук</a>
+                        <a href="#" class="social-btn social-inst">Инстаграм</a>
+                    </div>
+                    <h3>Давайте дружить, это выгодно!</h3>
+                    <p>Скидка 10% для друзей из социальных сетей</p>
+                </section>
+
+            </div>
+        </footer>
 
 </body>
 </html>
