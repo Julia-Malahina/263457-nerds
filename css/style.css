@@ -2,8 +2,11 @@
 	
 	font-family: "Roboto", "Arial", serif;
 	font-size: 16px;
+	line-height: 30px;
+	color: #000000;
 
 }
+
 header {
 	margin:0;
 	padding: 0;
@@ -11,6 +14,14 @@ header {
 	height: 546px;
 	background-color: #eeeeee;
 }
+h1 {
+	font-size: 55px;
+	line-height: 55px;
+	font-weight: bold;
+	
+
+}
+
 .logo {
 	display: inline-block;
 	/*background-image: url(img/sprite-logo.png);
@@ -22,6 +33,7 @@ header {
 	background-position: 0 -65px;
 
 }*/
+
 article div {
 	display: inline-block;
 }
