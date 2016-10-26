@@ -1,9 +1,27 @@
 .body {
-	margin:0;
-	padding: 0;
+	
 	font-family: "Roboto", "Arial", serif;
+	font-size: 16px;
 
 }
 header {
-	background-color: #E6E6E6;
+	margin:0;
+	padding: 0;
+	width: 1440px;
+	height: 546px;
+	background-color: #eeeeee;
+}
+.logo {
+	display: inline-block;
+	/*background-image: url(img/sprite-logo.png);
+	background-repeat: no-repeat;
+	width:  161px;
+	height:  65px;*/
+}
+/*.activ:hover {
+	background-position: 0 -65px;
+
+}*/
+article div {
+	display: inline-block;
 }

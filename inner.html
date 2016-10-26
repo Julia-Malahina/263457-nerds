@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>HTML Academy: Нёрдс</title>
-	<link href="css/style.css" type="text/css" rel="stylesheet" />
+	<link href="css/style-inner.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 	<header class="page-header">
@@ -33,29 +33,31 @@
 			</div>
 			<div>
 				<h1>Магазин готовых шаблонов</h1>
-			</div>
+		  </div>
 		</div>
 	</header>
 
 	<main class="container">
 		<section class="choice-form">
 			<form action="#" method="post">
+			  <div class="range">
 				<div class="price-range">
 					<p>Стоимость</p>
-					<label for="price-range"></label>
-					<input type="range" id="price-range" min="0" max="15000"/>
+					  <label for="price-range"></label>
+					  <input type="range" id="price-range" min="0" max="15000"/>
 				</div>
 
 				<div class="form-range">
-					<div class="range">
+					<div class="range-item range-item-left">
 						<span>от</span>
 						<input type="text"  value="0"/>
-						<div class="range-item">
-							<span>до</span>
-							<input type="text" value="15000"/>
-						</div>
+					</div>
+					<div class="range-item range-item-right">
+						<span>до</span>
+						<input type="text" value="15000"/>
 					</div>
 				</div>
+			  </div>	
 				<div class="variations-meshes">
 					<p>Сетка</p>
 					<label for="Adaptive">Адаптивная</label>
@@ -224,19 +226,19 @@
 	<div class="interactive map">
 		<section class="map-form">
 			<div class="map">
-				<img src="/https://www.google.ru/maps/@59.9404101,30.3233522,15z" width="" height="" alt="Катра"></div>
+				<img src="img/map.jpg" width="1440" height="416" alt="Катра">
+			</div>
 			<div class="form-write">
-				<h3>Nerds design studio</h3>
-				<p>191186, Санкт-Петербург.</p>
-				<p>ул. Б.Кошюшенная, д.19/8</p>
-				<span>тел.</span>
-				<a href="#">+7(812)275-75-75</a>
-			</div>
-			<div>
-				<a class="btn" href="#" >Напишите нам</a>
-			</div>
-		</section>
-	</div>
+				  <h3>Nerds design studio</h3>
+				  <p>191186, Санкт-Петербург.</p>
+				  <p>ул. Б.Кошюшенная, д.19/8</p>
+				  <span>тел.</span>
+				  <a class="phone" href="#">+7(812)275-75-75</a>
+				  <a class="btn" href="#" >Напишите нам</a>
+			  </div>
+		</section>	  
+    </div>
+		 
 
 	<footer class="page-footer">
 		<div class="container">
