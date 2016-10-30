@@ -7,23 +7,21 @@
 </head>
 <body>
 	<header class="page-header">
-		<div class="container">
-			<div class="logo">
-				<a href="#" title="Логотип" >
-					<img src="img/nerds-logo.png" width="160" height="65" alt="Nerds"></a>
-			</div>
+		<div class="container clearfix">
+			<div class="logo activ">
+				<img  class="activ" src="img/nerds-logo.png" width="160" height="65" alt="Nerds"></div>
 			<nav class="main-menu">
 				<ul class="menu">
 					<li class="active">
 						<a href="#">Студия</a>
 					</li>
-					<li class="active">
+					<li>
 						<a href="#">Клиенты</a>
 					</li>
-					<li class="active">
+					<li>
 						<a href="#">Магазин</a>
 					</li>
-					<li class="active">
+					<li>
 						<a href="#">Контакты</a>
 					</li>
 				</ul>
@@ -33,236 +31,238 @@
 			</div>
 			<div>
 				<h1>Магазин готовых шаблонов</h1>
-		  </div>
+			</div>
 		</div>
 	</header>
 
-	<main class="container">
-		<section class="choice-form">
-			<form action="#" method="post">
-			  <div class="range">
-				<div class="price-range">
-					<p>Стоимость</p>
-					  <label for="price-range"></label>
-					  <input type="range" id="price-range" min="0" max="15000"/>
-				</div>
+	<main class="page-main">
+		<div class="container clearfix">
+			<section class="choice-form">
+				<form action="#" method="post">
+					<div class="range">
+						<div class="price-range">
+							<p class="price">Стоимость</p>
+							<label for="price-range"></label>
+							<input type="range" id="price-range" min="0" max="15000"/>	
+						</div>
 
-				<div class="form-range">
-					<div class="range-item range-item-left">
-						<span>от</span>
-						<input type="text"  value="0"/>
+						<div class="form-range">
+							<div class="range-item range-item-left">
+								<span>от</span>
+								<input type="text"  value="0"/>	
+							</div>
+							<div class="range-item range-item-right">
+								<span>до</span>
+								<input type="text" value="15000"/>	
+							</div>
+						</div>
 					</div>
-					<div class="range-item range-item-right">
-						<span>до</span>
-						<input type="text" value="15000"/>
+					<div class="variations-meshes">
+						<p>Сетка</p>
+						<label for="Adaptive">Адаптивная</label>
+						<input type="radio" name="price" id="Adaptive" value="Adaptive" checked/>	
+						<label for="Fixed">Фиксированная</label>
+						<input type="radio" name="price" id="Fixed" value="Fixed"/>	
+						<label for="Rubber">Резиновая</label>
+						<input type="radio" name="price" id="Rubber" value="Rubber"/>	
 					</div>
-				</div>
-			  </div>	
-				<div class="variations-meshes">
-					<p>Сетка</p>
-					<label for="Adaptive">Адаптивная</label>
-					<input type="radio" name="price" id="Adaptive" value="Adaptive" checked/>
-					<label for="Fixed">Фиксированная</label>
-					<input type="radio" name="price" id="Fixed" value="Fixed"/>
-					<label for="Rubber">Резиновая</label>
-					<input type="radio" name="price" id="Rubber" value="Rubber"/>
-				</div>
-				<div class="features">
-					<p>Особенности</p>
-					<label for="slider">Слайдер</label>
-					<input type="checkbox" name="slider" id="slider" checked/>
-					<label for="block-advantage">Блок преимуществ</label>
-					<input type="checkbox" name="block-advantage" id="block-advantage"/>
-					<label for="news">Новости</label>
-					<input type="checkbox" name="news" id="news" checked/>
-					<label for="gallery">Галерея</label>
-					<input type="checkbox" name="gallery" id="gallery"/>
-					<label for="basket">Корзина</label>
-					<input type="checkbox" name="basket" id="basket"/>
-				</div>
-				<div class="btn">
-					<button type="submit">Показать</button>
-				</div>
-			</form>
-		</section>
-		<section class="template-selection">
-			<div class="sort-templates">
-				<p>сортировать</p>
-				<ul>
-					<li>
-						<a href="#">по цене</a>
-					</li>
-					<li>
-						<a href="#">по типу</a>
-					</li>
-					<li>
-						<a href="#">по названию</a>
-					</li>
-					<li>
-						<a href="#"></a>
-					</li>
-					<li>
-						<a href="#"></a>
-					</li>
-				</ul>
-			</div>
+					<div class="features">
+						<p>Особенности</p>
+						<label for="slider">Слайдер</label>
+						<input type="checkbox" name="slider" id="slider" checked/>	
+						<label for="block-advantage">Блок преимуществ</label>
+						<input type="checkbox" name="block-advantage" id="block-advantage"/>	
+						<label for="news">Новости</label>
+						<input type="checkbox" name="news" id="news" checked/>	
+						<label for="gallery">Галерея</label>
+						<input type="checkbox" name="gallery" id="gallery"/>	
+						<label for="basket">Корзина</label>
+						<input type="checkbox" name="basket" id="basket"/>	
+					</div>
+					<div class="btn">
+						<button type="submit">Показать</button>
+					</div>
+				</form>
+			</section>
+			<section class="template-selection">
+			  <div class="template-left">
+			    <div class="sort-templates">
+					<p class="sort">сортировать</p>
+			    </div>
+					<div class="template">
+						<div class="template-item">
+							<div class="template-menu">
+								<ul>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+							<div class="template-img">
+								<img src="img/template-S.jpg" width="360" height="576" alt="Sedona"></div>
+						</div>
+						<div class="selection">
+							<h3>Sedona</h3>
+							<p>Информационный сайт для туристов</p>
+							<a href="#">9 900руб.</a>
+						</div>
+					</div>
 
-			<div class="template">
-				<div class="template-item">
-					<div class="template-menu">
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
+					<div class="template">
+						<div class="template-item">
+							<div class="template-menu">
+								<ul>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+							<div class="template-img">
+								<img src="img/template-B.jpg" width="360" height="576" alt="Borodinski"></div>
+						</div>
+						<div class="selection">
+							<h3>Borodinski</h3>
+							<p>Сайт салоны красоты. Для мужчин, да.</p>
+							<a href="#">9 900руб.</a>
+						</div>
+					</div>
+
+					<div class="template">
+						<div class="template-item">
+							<div class="template-menu">
+								<ul>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+							<div class="template-img">
+								<img src="img/template-A Plus.jpg" width="360" height="576" alt="A Plus"></div>
+						</div>
+						<div class="selection">
+							<h3>A Plus</h3>
+							<p>Лендинг курсов повышения квалификации</p>
+							<a href="#">9 900руб.</a>
+						</div>
+					</div>
+				</div>
+				<div class="template-right">
+					<div class="sort-templates">
+						<ul class="sort-menu">
+							<li>
+								<a href="#">по цене</a>
+							</li>
+							<li>
+								<a href="#">по типу</a>
+							</li>
+							<li>
+								<a href="#">по названию</a>
+							</li>
+							<li>
+								<a href="#"></a>
+							</li>
+							<li>
+								<a href="#"></a>
+							</li>
 						</ul>
 					</div>
-					<div class="template-img">
-						<img src="img/template-S.jpg" width="" height="" alt="Sedona">
+					<div class="template">
+						<div class="template-item">
+							<div class="template-menu">
+								<ul>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+							<div class="template-img">
+								<img src="img/template-P.jpg" width="360" height="576" alt="Pink"></div>
+						</div>
+						<div class="selection">
+							<h3>Pink</h3>
+							<p>Продуктовый лендинг приложения для iOS и Android</p>
+							<a href="#">9 900руб.</a>
+						</div>
 					</div>
-				</div>
-				<div class="selection">
-					<h3>Sedona</h3>
-					<p>Информационный сайт для туристов</p>
-					<a href="#">9 900руб.</a>
-				</div>
-			</div>
 
-			<div class="template">
-				<div class="template-item">
-					<div class="template-menu">
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
+					<div class="template">
+						<div class="template-item">
+							<div class="template-menu">
+								<ul>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+							<div class="template-img">
+								<img src="img/template-M.jpg" width="360" height="576" alt="Mishka"></div>
+						</div>
+						<div class="selection">
+							<h3>Mishka</h3>
+							<p>Интернет-магазин вязаных игрушек</p>
+							<a href="#">9 900руб.</a>
+						</div>
 					</div>
-					<div class="template-img">
-						<img src="img/template-B.jpg" width="360" height="576" alt="Borodinski">
-					</div>
-				</div>
-				<div class="selection">
-					<h3>Borodinski</h3>
-					<p>Сайт салоны красоты. Для мужчин, да.</p>
-					<a href="#">9 900руб.</a>
-				</div>
-			</div>
 
-			<div class="template">
-				<div class="template-item">
-					<div class="template-menu">
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
+					<div class="template">
+						<div class="template-item">
+							<div class="template-menu">
+								<ul>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+							<div class="template-img">
+								<img src="img/template-K.jpg" width="360" height="576" alt="Kvast"></div>
+						</div>
+						<div class="selection">
+							<h3>Kvast</h3>
+							<p>Промо-сайт производителя крафтового кваса</p>
+							<a href="#">9 900руб.</a>
+						</div>
 					</div>
-					<div class="template-img">
-						<img src="img/template-A Plus.jpg" width="360" height="576" alt="A Plus">
+					<div class="btn-next">
+						<a href="#">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">следующая</a>
 					</div>
-				</div>
-				<div class="selection">
-					<h3>A Plus</h3>
-					<p>Лендинг курсов повышения квалификации</p>
-					<a href="#">9 900руб.</a>
-				</div>
+				</section>
 			</div>
+		</main>
 
-			<div class="template">
-				<div class="template-item">
-					<div class="template-menu">
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
-					</div>
-					<div class="template-img">
-						<img src="img/template-P.jpg" width="360" height="576" alt="Pink">
-					</div>
-				</div>
-				<div class="selection">
-					<h3>Pink</h3>
-					<p>Продуктовый лендинг приложения для iOS и Android</p>
-					<a href="#">9 900руб.</a>
-				</div>
-			</div>
-
-			<div class="template">
-				<div class="template-item">
-					<div class="template-menu">
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
-					</div>
-					<div class="template-img">
-						<img src="img/template-M.jpg" width="360" height="576" alt="Mishka">
-					</div>
-				</div>
-				<div class="selection">
-					<h3>Mishka</h3>
-					<p>Интернет-магазин вязаных игрушек</p>
-					<a href="#">9 900руб.</a>
-				</div>
-			</div>
-
-			<div class="template">
-				<div class="template-item">
-					<div class="template-menu">
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
-					</div>
-					<div class="template-img">
-						<img src="img/template-K.jpg" width="360" height="576" alt="Kvast"></div>
-				</div>
-				<div class="selection">
-					<h3>Kvast</h3>
-					<p>Промо-сайт производителя крафтового кваса</p>
-					<a href="#">9 900руб.</a>
-				</div>
-			</div>
-			<div class="btn-next">
-				<a href="#">1</a>
-				<a href="#">2</a>
-				<a href="#">3</a>
-				<a href="#">следующая</a>
-			</div>
-		</section>
-	</main>
-
-	<div class="interactive-map">
-		<section class="map-form">
-			<div class="map">
-				<img src="img/map.png" width="1440" height="416" alt="Катра">
-			</div>
-			<div class="form-write">
-				  <h3>Nerds design studio</h3>
-				  <p>191186, Санкт-Петербург.</p>
-				  <p>ул. Б.Кошюшенная, д.19/8</p>
-				  <span>тел.</span>
-				  <a class="phone" href="#">+7(812)275-75-75</a>
-				  <a class="btn" href="#" >Напишите нам</a>
-			  </div>
-		</section>	  
-    </div>
+        <div class="interactive-map">
+        	<section class="map-form">
+        		<div class="map">
+        			<img src="img/map.png" width="1440" height="416" alt="Катра"></div>
+        		<div class="form-write">
+        			<h3>Nerds design studio</h3>
+        			<p>191186, Санкт-Петербург.</p>
+        			<p>ул. Б.Кошюшенная, д.19/8</p>
+        			<span>тел.</span>
+        			<a class="phone" href="#">+7(812)275-75-75</a>
+        			<a class="btn" href="#" >Напишите нам</a>
+        		</div>
+        	</div>
+        </section>
+        </div>
 		 
 
 	<footer class="page-footer">
-		<div class="container">
-			<section class="footer-social">
-				<div>
-					<a class="social-btn social-vk" href="#" >Вконтакте</a>
-					<a class="social-btn social-fb" href="#" >Фейсбук</a>
-					<a class="social-btn social-inst" href="#" >Инстаграм</a>
-				</div>
-				<h2>Давайте дружить, это выгодно!</h2>
-				<p>Скидка 10% для друзей из социальных сетей</p>
-			</section>
-		</div>
-	</footer>
+        <div class="container clearfix">
+            <section >
+                <div class="footer-social">
+                    <a class="social-btn social-vk" href="#" >Вконтакте</a>
+                    <a class="social-btn social-fb" href="#" >Фейсбук</a>
+                    <a class="social-btn social-inst" href="#" >Инстаграм</a>
+                </div>
+                <div class="footer-slogan">
+                  <p class="slogan">Давайте дружить, это выгодно!</p>
+                  <p class="slogan-mini">Скидка 10% для друзей из социальных сетей</p>
+                </div>
+            </section>
+        </div>
+    </footer>
 </body>
 </html>
