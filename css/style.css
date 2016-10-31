@@ -4,10 +4,9 @@ body {
     padding: 0;
 }
 body {
-	min-width: 1440px;
 	color: #000000;
 	font-size: 16px;
-	font-weight: bold;
+	font-weight: normal;
 	line-height: 30px;
 	font-family: "Roboto", "Arial", serif;
 }
@@ -22,19 +21,21 @@ h2 {
 h3 {
 	font-size: 16px;
 	line-height: 24px;
+	margin: 0;
+	padding: 0;
 }
 
 .container {
 	width: 1160px;
 	margin: 0 auto;
-	padding: 0 10px;
+	/*padding: 0 10px;*/
 }
 .clearfix::after {
   content: "";
 
   display: block;
   clear: both;
-/*  height: 20px;
+ /* height: 20px;
   background-color: white;
   background-image: linear-gradient(-45deg, white 45%, black 50%, white 55%);
   background-size: 20px;*/
@@ -43,7 +44,7 @@ h3 {
 /*HEADER*/
 
 .page-header {
-	margin:0;
+	margin:0 auto;
 	padding: 0;
 	background-color: #eeeeee;
 	margin-bottom: 80px;
@@ -53,39 +54,50 @@ h3 {
 	width: 160px;
 	height: 65px;
 	float: left;
-	padding-top: 50px;
-	padding-bottom: 240px;
-	
+	margin-top: 50px;
+	margin-right: 200px;
 }
 
 nav.main-menu {
-	width: 780px;
+	width: 440px;
 	float: left;
-	padding-top: 84px;
 	margin: 0;
+	padding: 0;
+	font-size: 0;
+	
 }
 
 ul.menu {
-	padding-left: 200px;
-	margin: 0;
+	margin-top: 80px;
+	padding: 0;
+	font: normal 16px/30px "Roboto", "Arial", serif;
 }
 ul.menu li {
     display: inline-block;
     list-style: none;
+    padding: 0 32px 0 0;   /*надо 45px*/
+
+
 }
 
 ul.menu a {
-	padding-right: 48px;
+	
 	color: #000000;
 	text-decoration: none;
 	text-transform: uppercase;
+	
+	 
 }
 
+a.menu-item {
+	margin: 0;
+	padding: 0;
+
+}
 .basket {
 	width: 150px;
 	float: right;
-	padding-top: 84px;
-	
+	margin-top: 75px;
 }
 
 .basket a {
@@ -94,20 +106,42 @@ ul.menu a {
 	text-transform: uppercase;
 }
 
-.slider-info {
-	width: 1190px;
-    margin: auto;
+.slider-info{
+	width: 1160px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 192px;
+
 }
-.slider-info .info {
-	 width: 70%;
+.info {
+	 width: 380px;
 	 float: left;
-
+	 margin: 0;
+	padding: 0;
+	padding-right: 20px;
 }
 
-.slider-info .slider {
-	width: 30%;
-	float:right; 
+.info-item {
+	display: none;
 }
+
+.slider {
+	float: right; 
+	width: 760px;
+	height: 431px;
+	margin: 0;
+	padding: 0;
+	background-image: url("img/slider-2.png");
+	background-size: 100%;
+}
+
+h1 {
+	width: 380px;
+	margin: 0;
+	padding: 0;
+}
+
+/*MAIN*/
 
 main.page-main {
 	margin-bottom: 80px;
@@ -118,35 +152,62 @@ section.picture-price {
 	margin: auto;
 }
 
+img {
+	padding: 0;
+	margin: 0;
+	padding-bottom: 15px;
+}
 .price {
 	width: 300px;
+	margin: 0;
+	padding: 0;
 	float: left;
-	padding-right: 100px;
+	margin-right: 100px;
 	margin-bottom: 80px;
 
 }
 .price:last-child {
-	padding-right: 0;
+	margin-right: 0;
 
 }
 
+h2 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
 div.column-left {
 	width: 660px;
 	float: left;
 }
 
-.column-left b {
-	font-size: 45px;
-	font-weight: bold;
-	line-height: 45px;
+p.caption {
+	font: bold 45px/45px "Roboto", "Arial", serif;
+	padding-bottom: 38px;
 }
 
 .development li,
-div.left
+p.left
 {
-	font-size: 16px;
-	font-weight: normal;
-	line-height: 24px;
+     font: normal 16px/24px ;
+
+}
+
+p.left {
+	padding-bottom: 45px;
+}
+.development li{
+	list-style: none;
+}
+
+.development li::before {
+	content: " - ";
+	position: relative;
+	color: red;
 }
 
 .column-right {
@@ -154,37 +215,59 @@ div.left
 	float: right;
 }
 
+p.tagline {
+	font: bold 16px/24px "Roboto", "Arial", serif;
+	text-transform: uppercase;
+	margin: 0 auto;
+	paddig: 0;
+	padding-bottom: 50px;
+
+}
+.call-item {
+	width: 110px;
+	display: inline-block;
+}
+p.call {
+	font: bold 45px/10px "Roboto", "Arial", serif;
+	padding-bottom: 25px;
+
+}
+
+span {
+     font: normal 16px/18px "Roboto", "Arial", serif;
+}
+div.call {
+	width: 100px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+div.call:last-child {
+	margin-right: 0;
+}
+
 div.block-image {
 	width: 1160px;
-	margin: auto;
-	margin-bottom: 80px;
+	margin: 0 auto;
+	margin-bottom: 85px;
 	border-top: 2px solid #eeeeee;
 	border-bottom: 2px solid #eeeeee;
 }
 
-div.call {
-	width: 100px;
-	display: inline-block;
-	padding-right: 20px;
-}
-
-div.call:last-child {
-	padding-right: 0;
-}
-
 div.image {
 	width: 210px;
-	padding-right: 100px;
 	display: inline-block;
 	vertical-align: middle;
-	margin: auto;
-	padding-top: 45px;
-	padding-bottom: 45px;
+    margin: 45px 90px 45px 0px;
+}
 
+div.image:first-child {
+	margin-left: 30px;
+	
 }
 
 div.image:last-child {
-	padding-right: 0;
+	margin-right: 0px;
 }
 
 /*FOOTER*/
