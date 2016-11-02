@@ -12,7 +12,7 @@ body {
 h1 {
 	font: bold 55px/55px "Roboto", "Arial", serif;
 	margin: 0 auto;
-	padding: 195px 0 115px 0;
+	padding: 77px 0 108px 218px;
 }
 
 h2 {
@@ -83,7 +83,7 @@ h3 {
 .menu li {
     display: inline-block;
     list-style: none;
-    padding: 0 45px 0 0;   /*надо 45px*/
+    padding: 0 27px 0 0;   /*надо 45px*/
 }
 
 .menu a {
@@ -108,26 +108,41 @@ h3 {
 	color: #000000;
 	text-decoration: none;
 	text-transform: uppercase;
+	padding: 0 0 0 76px;
 }
 
-/*MAIN*/
+/*MAIN*/ 
 
-section.choice-form {
-	width: 260px;
+.page-main {
+	padding: 0;
+	margin: 0 0 60px 0;
+}
+}
+
+.choice-form {
+	width: 400px;
 	float: left;
+	margin: 0;
+	padding: 0;
 }
 
 form {
 	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.range,
+.variations-meshes,
+.features {
+	width: 400px;
+	margin: 0;
+	padding: 0;
 }
 
 input[type="radio"] {
     display: block;
-    margin-top: 10px;
-}
-.template-selection {
-	width: 760px;
-	float: right;
+   
 }
 
 input[type="checkbox"] {
@@ -135,18 +150,24 @@ input[type="checkbox"] {
     padding: 10px 0 0 0;
 }
 
-
-
 input[type="submit"] {
-	font-size: 18px;
-	line-height: 30px;
+	font: normal 18px/30px "Roboto", "Arial", serif;
 	text-transform: uppercase;
-	padding-bottom: 20px;
+	padding: 0 0 20px 0;    
+}
+
+.template-selection {
+	width: 760px;
+	float: right;
+	margin: 0;
+	padding: 0;
 }
 
 .selection,
 .template {
 	width: 360px;
+	margin: 0;
+	padding: 0;
 }
 
 .template-menu {
