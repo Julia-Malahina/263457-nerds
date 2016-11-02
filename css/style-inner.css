@@ -119,15 +119,16 @@ h3 {
 }
 }
 
-.choice-form {
-	width: 400px;
-	float: left;
+section.choice-form {
+	width: 260px;
 	margin: 0;
 	padding: 0;
 }
 
 form {
-	width: 100%;
+	width: 260px;
+	height: 800px;
+	float: left;
 	margin: 0;
 	padding: 0;
 }
@@ -135,7 +136,7 @@ form {
 .range,
 .variations-meshes,
 .features {
-	width: 400px;
+	width: 260px;
 	margin: 0;
 	padding: 0;
 }
@@ -150,12 +151,14 @@ input[type="checkbox"] {
     padding: 10px 0 0 0;
 }
 
-input[type="submit"] {
+.btn {
+	width: 260px;
 	font: normal 18px/30px "Roboto", "Arial", serif;
 	text-transform: uppercase;
 	padding: 0 0 20px 0;    
 }
 
+/*Правая часть с сайтами*/
 .template-selection {
 	width: 760px;
 	float: right;
