@@ -5,111 +5,106 @@ body {
 }
 
 body {
-	min-width: 1440px;
+	font: bold 16px/30px "Roboto", "Arial", serif;
 	color: #000000;
-	font-size: 16px;
-	font-weight: bold;
-	line-height: 30px;
-	font-family: "Roboto", "Arial", serif;
 }
 
 h1 {
-	font-size: 55px;
-	line-height: 55px;
-	width: 724px;
+	font: bold 55px/55px "Roboto", "Arial", serif;
 	margin: 0 auto;
-	padding: 0;
-	padding-top: 195px;
-	padding-bottom: 115px;
+	padding: 195px 0 115px 0;
 }
 
 h2 {
-	font-size: 24px;
-	line-height: 30px;
+	font: bold 24px/30px "Roboto", "Arial", serif;
+	margin: 0;
+	padding: 0;
 }
 
 h3 {
-	font-size: 16px;
-	line-height: 24px;
+	font: bold 18px/30px "Roboto", "Arial", serif;
+	margin: 0;
+	padding: 0;
 }
 
 .container {
 	width: 1160px;
 	margin: 0 auto;
-	/*padding: 0 10px;*/
 }
 
 .clearfix::after {
   content: "";
-
   display: block;
   clear: both;
-  height: 20px;
+  
+  /*height: 20px;
   background-color: white;
   background-image: linear-gradient(-45deg, white 45%, black 50%, white 55%);
-  background-size: 20px;
+  background-size: 20px;*/
 }
 
 /*HEADER*/
 
 .page-header {
-	margin:0 auto;
+	margin: 0 auto;
 	padding: 0;
 	background-color: #eeeeee;
-	margin-bottom: 80px;
+	margin: 0 0 80px 0;
+}
+
+.content-header {
+	width: 1160px;
+	margin: 0 0 0px 0;
+	padding: 0;
+
 }
 
 .logo {
 	width: 160px;
 	height: 65px;
 	float: left;
-	margin-top: 50px;
-	margin-right: 200px;
+	margin: 50px 200px 0 0;
 }
 
-nav.main-menu {
-	width: 440px;
+.main-menu {
+	width: 491px;
 	float: left;
 	margin: 0;
 	padding: 0;
-	font-size: 0;
 	
 }
 
-ul.menu {
-	margin-top: 80px;
+.menu {
+	margin: 75px 0 0 0;
 	padding: 0;
 	font: normal 16px/30px "Roboto", "Arial", serif;
 }
-ul.menu li {
+
+.menu li {
     display: inline-block;
     list-style: none;
-    padding: 0 32px 0 0;   /*надо 45px*/
-
-
+    padding: 0 45px 0 0;   /*надо 45px*/
 }
 
-ul.menu a {
-	
+.menu a {
 	color: #000000;
 	text-decoration: none;
 	text-transform: uppercase;
-	
-	 
 }
 
-a.menu-item {
+.menu-item a{
 	margin: 0;
 	padding: 0;
 
 }
+
 .basket {
 	width: 150px;
 	float: right;
-	margin-top: 75px;
+	margin: 75px 0 0 0;
 }
 
-.basket a {
+.basket-btn {
 	color: #000000;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -130,14 +125,14 @@ input[type="radio"] {
     display: block;
     margin-top: 10px;
 }
-section.template-selection {
+.template-selection {
 	width: 760px;
 	float: right;
 }
 
 input[type="checkbox"] {
     display: block;
-    padding-top: 10px;
+    padding: 10px 0 0 0;
 }
 
 
@@ -148,39 +143,51 @@ input[type="submit"] {
 	text-transform: uppercase;
 	padding-bottom: 20px;
 }
-div.template {
-	width: 380px;
+
+.selection,
+.template {
+	width: 360px;
 }
 
+.template-menu {
+	margin: 0;
+	padding: 0;
 
-ul.sort-menu {
+}
+
+.template-menu ul {
+	margin: 0;
+	padding: 0;
+
+}
+.sort-menu {
 	margin: 0;
 	padding: 0;
 	font: normal 14px/18px "Roboto", "Arial", serif;
 
 }
 
-ul.sort-menu li {
+.sort-menu li {
     display: inline-block;
     list-style: none;
     margin: 0;
 	padding: 0;
 }
 
-p.selection-item  {
-	font: normal 14px/18px "Roboto", "Arial", serif;
+.selection-item  {
+	font: normal 16px/18px "Roboto", "Arial", serif;
 	color: #666666;
 	 margin: 0;
 	padding: 0;
 }
 
-p.price,
-p.sort,
+.price,
+.sort,
 li a {
 	text-transform: uppercase;
 }
 
-p.sort {
+.sort {
 	font: bold 18px/18px "Roboto", "Arial", serif;
 	margin: 0;
 	padding: 0;
@@ -197,6 +204,12 @@ li a:hover {
 
 .template-menu ul li {
 	display: inline-block;
+}
+
+..template-img {
+	width: 360px;
+	margin: 0;
+	padding: 0;
 }
 
 .template-img img {
@@ -222,33 +235,29 @@ li a:hover {
 
 /*FOOTER*/
 
-footer.page-footer {
-	margin-top: 70px;
-	padding-bottom: 65px;
+.page-footer {
+	margin: 70px 0 0 0;
+	padding: 0 0 65px 0;
+	
 }
 
-div.footer-social {
+.footer-social {
 	width: 290px;
 	float: left;
-	padding-right: 125px;
+	padding: 0 125px 0 0;
 
 }
 
-div.footer-slogan {
+.footer-slogan {
 	width:575px; 
 	float: left;
 
 }
 
 p.slogan {
-	font-size: 36px;
-	font-weight: bold;
-	line-height: 36px;
+	font: bold 35px/36px "Roboto", "Arial", serif;
 }
 
 p.slogan-mini {
-	font-size: 16px;
-	font-weight: normal;
-	line-height: 22px;
- 
+	font: normal 16px/22px "Roboto", "Arial", serif;
 }

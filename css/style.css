@@ -4,38 +4,38 @@ body {
     padding: 0;
 }
 body {
+	font: normal 16px/30px "Roboto", "Arial", serif;
 	color: #000000;
-	font-size: 16px;
-	font-weight: normal;
-	line-height: 30px;
-	font-family: "Roboto", "Arial", serif;
+	
 }
 h1 {
-	font-size: 55px;
-	line-height: 55px;
+	font: bold 55px/55px "Roboto", "Arial", serif;
+	margin: 0;
+	padding: 80px 0 20px 0;
 }
 h2 {
-	font-size: 24px;
-	line-height: 30px;
+	font: bold 24px/30px "Roboto", "Arial", serif;
+	margin: 0;
+	padding: 0 0 30px 0;
+	text-transform: uppercase;
 }
 h3 {
-	font-size: 16px;
-	line-height: 24px;
+	font: bold 16px/24px "Roboto", "Arial", serif;
 	margin: 0;
 	padding: 0;
+	text-transform: uppercase;
 }
 
 .container {
 	width: 1160px;
 	margin: 0 auto;
-	/*padding: 0 10px;*/
 }
-.clearfix::after {
-  content: "";
 
-  display: block;
-  clear: both;
- /* height: 20px;
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  /*height: 20px;
   background-color: white;
   background-image: linear-gradient(-45deg, white 45%, black 50%, white 55%);
   background-size: 20px;*/
@@ -44,161 +44,213 @@ h3 {
 /*HEADER*/
 
 .page-header {
-	margin:0 auto;
+	margin: 0 auto;
 	padding: 0;
 	background-color: #eeeeee;
-	margin-bottom: 80px;
+	margin: 0 0 80px 0;
+}
+
+.content-header {
+	width: 1160px;
+	margin: 0 0 0px 0;
+	padding: 0;
+
 }
 
 .logo {
 	width: 160px;
 	height: 65px;
 	float: left;
-	margin-top: 50px;
-	margin-right: 200px;
+	margin: 50px 200px 0 0;
 }
 
-nav.main-menu {
-	width: 440px;
+.main-menu {
+	width: 491px;
 	float: left;
 	margin: 0;
 	padding: 0;
-	font-size: 0;
 	
 }
 
-ul.menu {
-	margin-top: 80px;
+.menu {
+	margin: 75px 0 0 0;
 	padding: 0;
 	font: normal 16px/30px "Roboto", "Arial", serif;
 }
-ul.menu li {
+
+.menu li {
     display: inline-block;
     list-style: none;
-    padding: 0 32px 0 0;   /*надо 45px*/
-
-
+    padding: 0 45px 0 0;   /*надо 45px*/
 }
 
-ul.menu a {
-	
+.menu a {
 	color: #000000;
 	text-decoration: none;
 	text-transform: uppercase;
-	
-	 
 }
 
-a.menu-item {
+.menu-item a{
 	margin: 0;
 	padding: 0;
 
 }
+
 .basket {
 	width: 150px;
 	float: right;
-	margin-top: 75px;
+	margin: 75px 0 0 0;
 }
 
-.basket a {
+.basket-btn {
 	color: #000000;
 	text-decoration: none;
 	text-transform: uppercase;
 }
 
-.slider-info{
+.slider-info {
 	width: 1160px;
     margin: 0px;
     padding: 0px;
-    padding-top: 192px;
+ }
 
-}
 .info {
-	 width: 380px;
-	 float: left;
-	 margin: 0;
-	padding: 0;
-	padding-right: 20px;
+	width: 380px;
+	float: left;
+	margin: 0;
+	padding: 0 0 0 0;
 }
 
 .info-item {
 	display: none;
 }
 
+.info-text {
+	margin: 0;
+	padding: 0 0 40px 0;
+ }
+
+.btn-color a {
+	display: block;
+	width: 240px;
+	height: 50px;
+	margin: 0 0 85px 0;
+	padding: 0;
+	background-color: #fb565a;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+
 .slider {
-	float: right; 
+	width: 780px;
+    float: right;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+.slider-img {
 	width: 760px;
 	height: 431px;
 	margin: 0;
 	padding: 0;
-	background-image: url("img/slider-2.png");
-	background-size: 100%;
-}
+	background: url("img/slider_1.jpg") no-repeat 0 0;
 
-h1 {
-	width: 380px;
-	margin: 0;
-	padding: 0;
 }
 
 /*MAIN*/
 
 main.page-main {
-	margin-bottom: 80px;
+	margin: 0;
 }
 
-section.picture-price {
+.picture-price {
 	width: 1140px;
-	margin: auto;
+	margin: 0px 0 0px 0;
+	border-bottom: 2px solid #eeeeee;
 }
 
 img {
-	padding: 0;
+	padding: 0 0 35px 0;
 	margin: 0;
-	padding-bottom: 15px;
+	
 }
+
 .price {
 	width: 300px;
 	margin: 0;
 	padding: 0;
 	float: left;
-	margin-right: 100px;
-	margin-bottom: 80px;
+	margin: 0 100px 0 0;
+}
+
+.word {
+	margin: 0;
+	padding: 0 0 40px 0;
 
 }
+
+.btn-red,
+.btn-green,
+.btn-yellow {
+	display: block;
+	width: 160px;
+	height: 55px;
+	margin: 0 0 80px 0;
+	padding: 0;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+
+.btn-red { 
+	background-color: #fb565a; 
+}
+
+.btn-green {
+    background-color: #00ca74;
+}
+
+.btn-yellow {
+    background-color: #efc84a;
+}
+
 .price:last-child {
 	margin-right: 0;
 
 }
 
-h2 {
-	margin: 0;
+.content-column {
+	margin: 0px 0 80px 0;;
 	padding: 0;
-	text-transform: uppercase;
+	
 }
-p {
-	margin: 0;
-	padding: 0;
-}
-div.column-left {
+.column-left {
 	width: 660px;
 	float: left;
+	margin: 80px 0 0px 0;
+	padding: 0;
 }
 
 p.caption {
 	font: bold 45px/45px "Roboto", "Arial", serif;
-	padding-bottom: 38px;
+	margin: 0;
+	padding: 0 0 40px 0;
 }
 
 .development li,
-p.left
-{
-     font: normal 16px/24px ;
-
+.left {
+    font: normal 16px/24px "Roboto", "Arial", serif;
+    margin: 0;
+	padding: 0;
 }
 
-p.left {
-	padding-bottom: 45px;
+.left {
+	padding: 0 0 50px 0;
 }
 .development li{
 	list-style: none;
@@ -213,29 +265,40 @@ p.left {
 .column-right {
 	width: 360px;
 	float: right;
+	margin: 40px 0 0px 0;
+	padding: 0;
+}
+
+.logo-color {
+	 margin: 0;
+	 padding: 0 0 40px 0;
 }
 
 p.tagline {
 	font: bold 16px/24px "Roboto", "Arial", serif;
 	text-transform: uppercase;
-	margin: 0 auto;
-	paddig: 0;
-	padding-bottom: 50px;
+	margin: 0;
+	paddig: 0 0 50px 0;
+	text-align: center;
 
 }
 .call-item {
 	width: 110px;
 	display: inline-block;
 }
-p.call {
+.call {
 	font: bold 45px/10px "Roboto", "Arial", serif;
-	padding-bottom: 25px;
+	margin: 0;
+	padding: 0 0 25px 0;
 
 }
 
 span {
      font: normal 16px/18px "Roboto", "Arial", serif;
+     margin: 0;
+	padding: 0;
 }
+
 div.call {
 	width: 100px;
 	display: inline-block;
@@ -246,60 +309,54 @@ div.call:last-child {
 	margin-right: 0;
 }
 
-div.block-image {
-	width: 1160px;
-	margin: 0 auto;
-	margin-bottom: 85px;
+.page-article {
+	padding: 0;
+	margin: 0 0 80px 0;
+}
+
+.block-image {
+	margin: 0;
+	padding: 44px 44px 44px 30px;
 	border-top: 2px solid #eeeeee;
 	border-bottom: 2px solid #eeeeee;
 }
 
-div.image {
+.image {
 	width: 210px;
 	display: inline-block;
 	vertical-align: middle;
-    margin: 45px 90px 45px 0px;
+    padding: 0 78px 0 0;
 }
 
-div.image:first-child {
-	margin-left: 30px;
-	
-}
-
-div.image:last-child {
-	margin-right: 0px;
+.image:last-child {
+	padding: 0;
 }
 
 /*FOOTER*/
 
-footer.page-footer {
-	margin-top: 70px;
+.page-footer {
+	margin: 70px 0 0 0;
+	padding: 0 0 65px 0;
 	
-	padding-bottom: 65px;
 }
 
-div.footer-social {
+.footer-social {
 	width: 290px;
 	float: left;
-	padding-right: 125px;
+	padding: 0 125px 0 0;
 
 }
 
-div.footer-slogan {
+.footer-slogan {
 	width:575px; 
 	float: left;
 
 }
 
 p.slogan {
-	font-size: 36px;
-	font-weight: bold;
-	line-height: 36px;
+	font: bold 35px/36px "Roboto", "Arial", serif;
 }
 
 p.slogan-mini {
-	font-size: 16px;
-	font-weight: normal;
-	line-height: 22px;
- 
+	font: normal 16px/22px "Roboto", "Arial", serif;
 }
