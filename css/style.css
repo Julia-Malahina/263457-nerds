@@ -16,7 +16,7 @@ h1 {
 h2 {
 	font: bold 24px/30px "Roboto", "Arial", serif;
 	margin: 0;
-	padding: 0 0 30px 0;
+	padding: 0 0 13px 0;
 	text-transform: uppercase;
 }
 h3 {
@@ -106,19 +106,21 @@ h3 {
 	color: #000000;
 	text-decoration: none;
 	text-transform: uppercase;
+	padding: 0 0 0 75px;
 }
 
-.slider-info {
+/*.slider-info {
 	width: 1160px;
+	height: 100%
     margin: 0px;
     padding: 0px;
- }
+ }*/
 
 .info {
 	width: 380px;
-	float: left;
 	margin: 0;
 	padding: 0 0 0 0;
+	float: left;
 }
 
 .info-item {
@@ -127,14 +129,14 @@ h3 {
 
 .info-text {
 	margin: 0;
-	padding: 0 0 40px 0;
+	padding: 0 0 32px 0;
  }
 
 .btn-color a {
 	display: block;
 	width: 240px;
 	height: 50px;
-	margin: 0 0 85px 0;
+	margin: 0 0 70px 0;
 	padding: 0;
 	background-color: #fb565a;
 	color: #ffffff;
@@ -145,20 +147,15 @@ h3 {
 }
 
 .slider {
-	width: 780px;
+	width: 760px;
     float: right;
 	margin: 0;
-	padding: 10px 0 0 0;
-}
-
-.slider-img {
-	width: 760px;
+	padding: 0 0 0 0;
 	height: 431px;
-	margin: 0;
-	padding: 0;
-	background: url("img/slider_1.jpg") no-repeat 0 0;
-
+	background: url("../img/slider_1.jpg") no-repeat right center;
 }
+
+
 
 /*MAIN*/
 
@@ -173,7 +170,7 @@ main.page-main {
 }
 
 img {
-	padding: 0 0 35px 0;
+	padding: 0 0 16px 0;
 	margin: 0;
 	
 }
@@ -188,7 +185,7 @@ img {
 
 .word {
 	margin: 0;
-	padding: 0 0 40px 0;
+	padding: 0 0 23px 0;
 
 }
 
@@ -197,7 +194,7 @@ img {
 .btn-yellow {
 	display: block;
 	width: 160px;
-	height: 55px;
+	height: 52px;
 	margin: 0 0 80px 0;
 	padding: 0;
 	color: #ffffff;
@@ -225,21 +222,21 @@ img {
 }
 
 .content-column {
-	margin: 0px 0 80px 0;;
+	margin: 0px 0 61px 0;;
 	padding: 0;
 	
 }
 .column-left {
 	width: 660px;
 	float: left;
-	margin: 80px 0 0px 0;
+	margin: 73px 0 0px 0;
 	padding: 0;
 }
 
 p.caption {
 	font: bold 45px/45px "Roboto", "Arial", serif;
 	margin: 0;
-	padding: 0 0 40px 0;
+	padding: 0 0 32px 0;
 }
 
 .development li,
@@ -250,7 +247,7 @@ p.caption {
 }
 
 .left {
-	padding: 0 0 50px 0;
+	padding: 0 0 39px 0;
 }
 .development li{
 	list-style: none;
@@ -271,14 +268,13 @@ p.caption {
 
 .logo-color {
 	 margin: 0;
-	 padding: 0 0 40px 0;
+	 padding: 0 0 69px 0;
 }
 
 p.tagline {
 	font: bold 16px/24px "Roboto", "Arial", serif;
 	text-transform: uppercase;
-	margin: 0;
-	paddig: 0 0 50px 0;
+	margin: 9px 0 -10px 0;
 	text-align: center;
 
 }
@@ -289,7 +285,7 @@ p.tagline {
 .call {
 	font: bold 45px/10px "Roboto", "Arial", serif;
 	margin: 0;
-	padding: 0 0 25px 0;
+	padding: 0 0 16px 0;
 
 }
 
@@ -316,7 +312,7 @@ div.call:last-child {
 
 .block-image {
 	margin: 0;
-	padding: 44px 44px 44px 30px;
+	padding: 44px 44px 23px 30px;
 	border-top: 2px solid #eeeeee;
 	border-bottom: 2px solid #eeeeee;
 }
