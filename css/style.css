@@ -169,17 +169,22 @@ h3 {
     background-position: -10px -10px;
 }
 .logo a:hover {
+	background-image: url("../img/logo-sprite.png");
 	width: 161px;
     height: 65px;
     background-position: -10px -95px;
+    opacity: 0.8;
 
 }
 
 .logo a:active {
-	position: absolute;
-	
-	background: url("../img/sprite-logo.png") no-repeat 0 -140px;
+	background-image: url("../img/logo-sprite.png");
+	width: 161px;
+    height: 65px;
+    background-position: -10px -444px;
 	opacity: 0.3;
+	
+	
 
 }
 .main-menu {
