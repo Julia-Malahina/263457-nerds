@@ -652,8 +652,6 @@ a.btn:active{
 	background-position: no-repeat;
 	position: relative;
 	margin: 20px 10px 70px 0;
-	
-	
 }
 
 .social-btn::before {
@@ -667,7 +665,6 @@ a.btn:active{
     width: 80px
 	height: 80px;
 	border-radius: 50px;
-
 }
 
 .social-vk::before {
@@ -678,28 +675,29 @@ a.btn:active{
 
 .social-vk:hover {
 	background-color: #e74246;
-
 }
 
 .social-vk:activ {
-	background-color: #d7373b;
-	color: #e37376;
-	opacity: 0.2;
+  /*  background-color: rgba(215, 55, 59 0.8);
+	/*opacity: 0.8;*/*/
 }
 
 .social-fb::before {
-	 width: 12px;
+	width: 12px;
     height: 22px;
     background-position: -10px -283px;
-
 }
 
 .social-fb:hover {
 	background-color: #e74246;
 }
 
+.social-fb:activ {
+
+}
+
 .social-inst::before {
-	 width: 21px;
+	width: 21px;
     height: 21px;
     background-position: -10px -325px;
  }
@@ -707,6 +705,11 @@ a.btn:active{
 .social-inst:hover {
 	background-color: #e74246;
 }
+
+.social-inst:activ {
+
+}
+
 .footer-slogan {
 	width:575px; 
 	float: right;
