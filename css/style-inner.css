@@ -1,10 +1,3 @@
-@font-face {
-  font-family: "Roboto";
-  src:
-    url("fonts/roboto.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
 html,
 body {
     margin: 0;
@@ -265,31 +258,157 @@ li a:hover {
 	float: right;
 }
 
+.interactive-map {
+    margin: 0 0 0 0 ;
+    padding: 0;
+}
+
+.map-form {
+	position: relative;
+}
+
+.form-write {
+     width: 320px;
+     height: 310px;
+     background-color: #ffffff;
+     position: absolute;
+     top: 50px;
+     left: 140px;
+     text-align: center;
+     padding: 0;
+}
+
+.head {
+	 font: normal 18px/30px "Roboto", "Arial", "Sans Serif";
+	 text-transform: uppercase;
+}
+
+.address {
+	font: normal 16px/18px "Roboto", "Arial", "Sans Serif";
+
+}
+
+.btn {
+	display: block;
+	width: 220px;
+	height: 50px;
+	margin: 50px 0 70px 45px;
+	padding: 0;
+	background-color: #fb565a;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+   
+}
+
+a.btn:hover {
+	background-color: #e74246;
+}
+
+a.btn:active{
+	background-color: #d7373b;
+	color: #e48789;
+}
+
 /*FOOTER*/
 
 .page-footer {
 	margin: 70px 0 0 0;
-	padding: 0 0 65px 0;
+	margin: 0 0 65px 0;
 	
 }
 
 .footer-social {
-	width: 290px;
+	width: 365px;
+	height: 100px;
+	margin: 0;
 	float: left;
-	padding: 0 125px 0 0;
+}
+
+.social-btn {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0;
+	width: 80px;
+    height: 80px;
+    vertical-align: middle;
+	border-radius: 50px;
+	background-color: #e1e1e1;
+	background-position: no-repeat;
+	position: relative;
+	margin: 20px 10px 70px 0;
+}
+
+.social-btn::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-image: url("../img/sprite.png");
+	background-repeat: no-repeat;
+    width: 80px
+	height: 80px;
+	border-radius: 50px;
+}
+
+.social-vk::before {
+	width: 26px;
+    height: 15px;
+    background-position: -10px -366px;
+}
+
+.social-vk:hover {
+	background-color: #e74246;
+}
+
+.social-vk:activ {
+  /*  background-color: rgba(215, 55, 59 0.8);
+	/*opacity: 0.8;*/*/
+}
+
+.social-fb::before {
+	width: 12px;
+    height: 22px;
+    background-position: -10px -283px;
+}
+
+.social-fb:hover {
+	background-color: #e74246;
+}
+
+.social-fb:activ {
+
+}
+
+.social-inst::before {
+	width: 21px;
+    height: 21px;
+    background-position: -10px -325px;
+ }
+
+.social-inst:hover {
+	background-color: #e74246;
+}
+
+.social-inst:activ {
 
 }
 
 .footer-slogan {
 	width:575px; 
-	float: left;
-
+	float: right;
+	margin: 26px 180px 0 0;
 }
 
-p.slogan {
-	font: bold 35px/36px "Roboto", "Arial", serif;
+.slogan {
+	font: bold 35px/36px "Roboto", "Arial", "Sans Serif";
+	margin: 0;
 }
 
-p.slogan-mini {
-	font: normal 16px/22px "Roboto", "Arial", serif;
+.slogan-mini {
+	font: normal 16px/22px "Roboto", "Arial", "Sans Serif";
+	margin: 10px 0 0 0;
 }

@@ -573,13 +573,13 @@ span {
 }
 
 .interactive-map {
-    margin: 118px 0 0 0 ;
+    margin: 0 0 0 0 ;
+    padding: 0;
 }
 
 .map-form {
 	position: relative;
 }
-
 
 .form-write {
      width: 320px;
@@ -614,7 +614,6 @@ span {
 	text-transform: uppercase;
    
 }
-}
 
 a.btn:hover {
 	background-color: #e74246;
@@ -624,7 +623,7 @@ a.btn:active{
 	background-color: #d7373b;
 	color: #e48789;
 }
-}
+
 /*FOOTER*/
 
 .page-footer {
