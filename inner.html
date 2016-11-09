@@ -47,18 +47,22 @@
   				<div class="range">
   					<div class="price-range">
   						<p class="headlines-item">Стоимость</p>
-  						<label for="price-range"></label>
-  						<input type="range" id="price-range" min="0" max="15000"/>  
   					</div>
 
-  					<div class="form-range">
-  						<div class="range-item range-item-left">
-  							<span>от</span>
-  							<input type="text"  value="0"/>  
+  					<div class="range-filter">
+  						<div class="range-controls">
+  							<div class="scale"><div class="bar" style="width: 70%"  ></div></div>
+  							<div class="toggle min-toggle"></div>
+  							<div class="toggle max-toggle"></div>
   						</div>
-  						<div class="range-item range-item-right">
-  							<span>до</span>
-  							<input type="text" value="15000"/>  
+  						<div class="price-controls">
+              <label for="min-price">
+  						  от <input  class="min-price" name="min-price" type="text" id="min-price" value="0">
+              </label>
+              <label for="max-price">
+  						  до <input class="max-price"  name="max-price" type="text" id="max-price" value="15 000">
+              </label>
+  							 
   						</div>
   					</div>
   				</div>
@@ -107,13 +111,15 @@
   							</ul>
   						</div>
   						<div class="template-img">
-  							<img src="img/Sedona.jpg" width="360" height="576" alt="Sedona"></div>
-  					</div>
+  							<img src="img/Sedona.jpg" width="360" height="576" alt="Sedona">
+  						</div>
+  					
   					<div class="selection">
   						<h3>Sedona</h3>
   						<p class="selection-item">Информационный сайт для туристов</p>
-  						<a href="#">9 900руб.</a>
+  						<a class="btn" href="#">9 900руб.</a>
   					</div>
+  				  </div>
   				</div>
 
   				<div class="template">
@@ -131,7 +137,7 @@
   					<div class="selection">
   						<h3>Borodinski</h3>
   						<p class="selection-item">Сайт салоны красоты. Для мужчин, да.</p>
-  						<a href="#">9 900руб.</a>
+  						<a class="btn" href="#">9 900руб.</a>
   					</div>
   				</div>
 
@@ -150,12 +156,12 @@
   					<div class="selection">
   						<h3>A Plus</h3>
   						<p class="selection-item">Лендинг курсов повышения квалификации</p>
-  						<a href="#">9 900руб.</a>
+  						<a class="btn" href="#">9 900руб.</a>
   					</div>
   				</div>
   			</div>
   			<div class="template-right">
-  				<div class="headlines-sort">
+  				<div class="headlines-sort clearfix">
   					<ul class="headlines-menu">
   						<li>
   							<a href="#">по цене</a>
@@ -167,11 +173,11 @@
   							<a href="#">по названию</a>
   						</li>
   					</ul>
-  					<ul class="index-menu">
-  					  <li>
+  					<ul class="search-menu">
+  					  <li class="down">
   					    <a href="#"></a>
   					  </li>
-  					  <li>
+  					  <li class="up">
   					    <a href="#"></a>
   					  </li>
   					</ul>
@@ -191,7 +197,7 @@
   					<div class="selection">
   						<h3>Pink</h3>
   						<p class="selection-item">Продуктовый лендинг приложения для iOS и Android</p>
-  						<a href="#">9 900руб.</a>
+  						<a class="btn" href="#">9 900руб.</a>
   					</div>
   				</div>
 
@@ -210,7 +216,7 @@
   					<div class="selection">
   						<h3>Mishka</h3>
   						<p class="selection-item">Интернет-магазин вязаных игрушек</p>
-  						<a href="#">9 900руб.</a>
+  						<a class="btn" href="#">9 900руб.</a>
   					</div>
   				</div>
 
@@ -229,7 +235,7 @@
   					<div class="selection">
   						<h3>Kvast</h3>
   						<p class="selection-item">Промо-сайт производителя крафтового кваса</p>
-  						<a href="#">9 900руб.</a>
+  						<a class="btn" href="#">9 900руб.</a>
   					</div>
   				</div>
   				<div class="btn-next">
@@ -244,23 +250,23 @@
   	</div>
   </main>
 
-  <div class="interactive-map">
-  	<section class="map-form">
-  		<div class="map">
-  			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255984.99737568627!2d30.04487740790124!3d59.91749253615013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a65ed%3A0x6dc7673fab848eff!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2sru!4v1477895077336" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-  		</div>
-  		<div class="form-write">
-  			<p class="head">Nerds design studio</p>
-  			<p class="address">
-  				191186, Санкт-Петербург.
-                        ул. Б.Кошюшенная, д.19/8
-  			</p>
-  			<span>тел.</span>
-  			<a class="phone" href="#">+7(812)275-75-75</a>
-  			<a class="btn-item" href="#" >Напишите нам</a>
-  		</div>
-  	</section>
-  </div>
+      <div class="interactive-map">
+      <section class="map-form">
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255984.99737568627!2d30.04487740790124!3d59.91749253615013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a65ed%3A0x6dc7673fab848eff!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2sru!4v1477895077336" width="100%" height="416" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="form-write">
+          <p class="head">Nёrds design studio</p>
+          <p class="address">
+            191186, Санкт-Петербург.<br>
+            ул. Б.Кошюшенная, д.19/8
+          </p>
+          <!-- <span class="tele">тел.</span> -->
+          <a class="phone" href="tel:+78122757575">тел. +7 (812) 275-75-75</a>
+          <a class="btn-item" href="#" >Напишите нам</a>
+        </div>
+      </section>
+    </div>
     
   <footer class="page-footer">
   	<div class="container clearfix">
