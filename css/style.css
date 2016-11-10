@@ -1349,78 +1349,112 @@ li a:hover {
 }
 
 .social-btn {
-	/*position: relative;*/
+	position: relative;
 	display: inline-block;
 	font-size: 0;
 	width: 80px;
     height: 80px;
     vertical-align: middle;
 	border-radius: 50px;
-	background-color: 
-	margin: 0 10px 0 0;
+    margin: 0 10px 0 0;
 	background: #e1e1e1 url("../img/sprite.png") no-repeat 0 0;
     
 }
 
-.social-vk {
-
-	width: 80px;
-    height: 80px;
+.social-vk::after {
+	content: "";
+    position: absolute;
+    top: 30px;
+    left: 25px;
 	width: 26px;
     height: 15px;
-	background-position: -10px -286px;
-   
+	background: #e1e1e1 url("../img/sprite.png") no-repeat -10px -286px;
     
 }
-.social-vk a:hover {
+.social-vk a::after:hover {
+	content: "";
+    position: absolute;
+    top: 30px;
+    left: 25px;
 	width: 26px;
     height: 15px;
-    background-position: -10px -286px;
-    background-color: #e74246;
+    background:  #e74246 url("../img/sprite.png") no-repeat -10px -286px;
+
 }
 
-.social-vk a:active {
+.social-vk a::after :active {
+	content: "";
+    position: absolute;
+    top: 30px;
+    left: 25px;
 	width: 26px;
     height: 14px;
-    background-position: -10px -321px;
-    background-color: #d7373b;
+    background:  #d7373b url("../img/sprite.png") no-repeat -10px -321px;
+    
 
 }
-.social-fb {
-	 width: 12px;
+.social-fb::after {
+	content: "";
+    position: absolute;
+    top: 30px;
+    left: 30px;
+	width: 12px;
     height: 22px;
-    background-position: -10px -124px;
+    background: #e1e1e1 url("../img/sprite.png") no-repeat -10px -124px;
 }
 
-.social-fb:hover {
-	 background-color: #e74246;
+.social-fb a::after:hover {
+	content: "";
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    width: 10px;
+    height: 20px;
+	background: #e74246 url("../img/sprite.png") no-repeat -10px -124px;
 }
 
-.social-fb:active {
+.social-fb a::after :active {
+	content: "";
+    position: absolute;
+    top: 30px;
+    left: 25px;
 	width: 10px;
     height: 20px;
-    background-position: -10px -166px;
-	  background-color: #d7373b;
+    background: #d7373b url("../img/sprite.png") no-repeat -10px -166px;
+	
 }
 
-.social-inst {
-	  width: 21px;
+.social-inst::after {
+	content: "";
+    position: absolute;
+    top: 30px;
+    left: 25px;
+	width: 21px;
     height: 21px;
-    background-position: -10px -206px;
+    background: #e1e1e1 url("../img/sprite.png") no-repeat -10px -206px;
+    
  }
 
-.social-inst:hover {
-	 width: 21px;
+.social-inst a::after :hover {
+	content: "";
+    position: absolute;
+    top: 30px;
+    left: 25px;
+	width: 21px;
     height: 21px;
-    background-position: -10px -206px;
-	background-color: #e74246;
+    background: #e74246 url("../img/sprite.png") no-repeat -10px -206px;
+	
 }
 
-.social-inst:active {
+.social-inst a::after :active {
+	content: "";
+    position: absolute;
+    top: 30px;
+    left: 25px;
 	 width: 19px;
     height: 19px;
     background-position: -10px -247px;
-
+    background: #d7373b url("../img/sprite.png") no-repeat -10px -247px;
 }
 
 .footer-slogan {
