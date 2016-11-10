@@ -146,19 +146,19 @@
     <article class="page-article">
         <div class="container clearfix">
           <div class="block-image">
-            <div class="image">
+            <div class="image image-Academy">
                 <a class="activ" href="https://htmlacademy.ru/" target="_blank">
-                    <img src="img/logo-1.png" width="199" height="68" alt="HTML Academy:"></a>
+                    <img src="img/logo-1.png" width="199" height="68" alt="HTML Academy"></a>
             </div>
-            <div class="image">
+            <div class="image image-Borodinski">
                 <a class="activ" href="#">
                     <img src="img/logo-2.png" width="209" height="87" alt="Borodinski"></a>
             </div>
-            <div class="image">
+            <div class="image image-Pink">
                 <a class="activ" href="#">
                     <img src="img/logo-3.png" width="185" height="52" alt="Pink"></a>
             </div>
-            <div class="image">
+            <div class="image image-Mishka">
                 <a class="activ" href="#">
                     <img src="img/logo-4.png" width="173" height="84" alt="Mishka"></a>
             </div>
@@ -177,7 +177,7 @@
             191186, Санкт-Петербург.<br>
             ул. Б.Кошюшенная, д.19/8
           </p>
-          <!-- <span class="tele">тел.</span> -->
+         
           <a class="phone" href="tel:+78122757575">тел. +7 (812) 275-75-75</a>
           <a class="btn-item" href="#" >Напишите нам</a>
         </div>
@@ -188,7 +188,7 @@
         <div class="container clearfix">
             <section >
                 <div class="footer-social">
-                    <a class="social-btn social-vk" href="https://vk.com/ymalakhina" >Вконтакте</a>
+                    <a class="social-btn social-vk" href="https://vk.com/" >Вконтакте</a>
                     <a class="social-btn social-fb" href="https://www.facebook.com" >Фейсбук</a>
                     <a class="social-btn social-inst" href="https://www.instagram.com" >Инстаграм</a>
                 </div>
@@ -202,15 +202,22 @@
     <div class="modal-content">
       <button class="modal-content-close" type="button" title="Отправить">Отправить</button>
       <p class="modal-content-title">Напишите нам</p>
-      <form class="write-form" action="#" method="post">
-        <label for="your-name">Ваше имя</label>
-        <input class="your-name" type="text" name="your-name" id="your-name" placeholder="Представьтесь, пожалуйста">
-        <label for="your-email">Ваш e-mail:</label>
-        <input class="your-email" type="text" name="your-email" id="your-email" placeholder="Для отправки ответа">
-        <label for="text-letter">Текст письма:</label>
-        <textarea  class="text-letter" name="letter" id="text-letter" cols="100" rows="10" placeholder="">В свободной форме</textarea>
+      <form class="write-form" action="/echo" method="post">
+         <div class="half-width">
+          <label for="name">Ваше имя</label>
+          <input class="name" type="text" name="your-name" id="name" placeholder="Представьтесь, пожалуйста">
+        </div>
+        <div class="half-width">
+          <label for="email">Ваш e-mail:</label>
+          <input class="email" type="text" name="your-email" id="email" placeholder="Для отправки ответа">
+        </div>
+        <div class="review">
+          <label for="review">Текст письма:</label>
+          <textarea name="letter" id="review" cols="90" rows="5" placeholder="">В свободной форме</textarea>
+        </div>
+        <div class="buttons">
         <button class="btn" type="submit">Отправить</button>
-
+      </div>
       </form>
     </div>
 </body>
