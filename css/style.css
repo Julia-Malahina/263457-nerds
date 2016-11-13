@@ -3,15 +3,17 @@ body {
     margin: 0;
     padding: 0;
 }
+
 body {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 24px;
-	font-family: "Roboto", "Arial", "Sans Serif";
+	font-family: "Roboto", "Arial", "sans-serif";
 	position: relative;
 }
 
 /*logo-sprite*/
+
 .sprite {
     background-image: url("../img/logo-sprite.png");
     background-repeat: no-repeat;
@@ -109,20 +111,28 @@ body {
 }
 
 h1 {
-	font: bold 55px/55px "Roboto", "Arial", "Sans Serif";
+	font-size: 55px;
+	font-weight: bold;
+	line-height: 55px;
+	font-family: "Roboto", "Arial", "sans-serif";
 	margin: 0 auto;
-	padding: 78px 0 108px 218px;
+	padding: 78px 0 108px 235px;
 }
 
 h2 {
-	font: bold 24px/30px "Roboto", "Arial", "Sans Serif";
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 30px;
+	font-family: "Roboto", "Arial", "sans-serif";
 	margin: 0 0 16px 0;
 	text-transform: uppercase;
 }
 
 h3 {
-	font: bold 18px/30px "Roboto", "Arial", "Sans Serif";
-	margin: 0;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+	font-family: "Roboto", "Arial", "sans-serif";
 	padding: 0;
 }
 
@@ -142,13 +152,13 @@ h3 {
 .page-header {
 	padding: 0;
 	background-color: #eeeeee;
-	margin: 0 0 56px 0;
+	margin: 0 0 80px 0;
 }
 
 .content-header {
-	width: 1160px;
+	min-width: 1160px;
 	margin: 0 0 0px 0;
-	padding: 0;
+	padding: 0 20px 0 20px;
 
 }
 
@@ -198,9 +208,12 @@ h3 {
 }
 
 .menu {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 30px;
+	font-family: "Roboto", "Arial", "sans-serif";
 	margin: 76px 0 0 0;
 	padding: 0;
-	font: normal 16px/30px "Roboto", "Arial", serif;
 }
 
 .menu li {
@@ -270,7 +283,6 @@ h3 {
 	width: 1160px;
 	height: 432px;
 	margin: 0 auto;
-	/*background-color: #dee9f7; /*убрать*/*/
 }
 
 .slider input[type=radio] {
@@ -323,22 +335,25 @@ h3 {
 }
 
 .slide-title {
-	margin: 80px 0 0 0;
-	font: bold 55px/55px "Roboto", "Arial", "Sans Serif";
+	font-size: 55px;
+	font-weight: bold;
+	line-height: 55px;
+	font-family: "Roboto", "Arial", "sans-serif";
+	margin: 49px 0 0 19px;
 	color: #000000;
 	width: 520px;
 }
 
 .slide-item {
 	width: 360px;
-	margin: 24px 0 40px 0;
+	margin: 26px 0 40px 19px;
 }
 
-.slide .btn {
+.btn-slide {
     display: block;
     width: 240px;
     padding: 13px 0;
-    margin-top: 25px;
+    margin: 25px 0 0 19px;
     font-size: 16px;
     color: white;
     text-transform: uppercase;
@@ -348,11 +363,11 @@ h3 {
     border-radius: 3px;
 }
 
-a.btn:hover {
+.btn-slide:hover {
 	background-color: #e74246;
 }
 
-a.btn:active {
+.btn-slide:active {
 	background-color: #d7373b;
 	color: #e48789;
 }
@@ -362,7 +377,7 @@ a.btn:active {
 }
 
 .slide:nth-child(1) {
-	background: url("../img/slider_1.jpg") no-repeat 100% 10px;
+	background: url("../img/slider_1.jpg") no-repeat 105% 2px;
 }
 
 .slide:nth-child(2) {
@@ -401,10 +416,9 @@ main.page-main {
 
 .price {
 	width: 300px;
-	margin: 0;
 	padding: 0;
 	float: left;
-	margin: 0 100px 0 0;
+	margin: 0 81px 0 19px;
 }
 
 .word {
@@ -412,7 +426,6 @@ main.page-main {
 	padding: 0;
 	margin: 0 0 32px 0;
 	text-transform: none;
-
 }
 
 .btn-red,
@@ -429,7 +442,6 @@ main.page-main {
     text-decoration: none;
    /* background: #fb565a;*/
     border-radius: 3px;
-	
 }
 
 .btn-red { 
@@ -472,11 +484,10 @@ a.btn-yellow:active {
 }
 .price:last-child {
 	margin-right: 0;
-
 }
 
 .content-column {
-	margin: 0px 0 73px 0;;
+	margin: 0px 0 67px 0;;
 }
 
 .column-left {
@@ -491,34 +502,32 @@ a.btn-yellow:active {
 	font-size: 45px;
 	font-weight: bold;
 	line-height: 45px;
-	font-family: "Roboto", "Arial", "Sans Serif";
+	font-family: "Roboto", "Arial", "sans-serif";
 	padding: 0;
-	margin: 0 0 32px 0;
+	margin: 0 0 35px 19px;
 }
 
 .left {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 24px;
-	font-family: "Roboto", "Arial", "Sans Serif";
+	font-family: "Roboto", "Arial", "sans-serif";
     width: 625px;
-	margin: 0;
+	margin: 0 0 36px 19px;
    
 }
 
+.column-left h3 {
+	margin: 0 0 0 19px;
+}
 .development {
-	margin: 0;
 	padding: 0 0 0 15px;
-	margin: 0 0 0 20px;
+	margin: 0 0 0 40px;
 	list-style: none;
 }
 
-.left {
-	margin: 0 0 39px 0;
-}
-
 .development li {
-     padding: 20px 0 0 0;
+     padding: 23px 0 0 0;
      position: relative;
 }
 
@@ -527,12 +536,12 @@ a.btn-yellow:active {
 	position: absolute;
 	width: 25px;
 	height: 2px;
-	top: 32px;
+	top: 35px;
 	left: -24px;
 	transform: translate(-50%, -50%);
     background-color: red;
-	
 }
+
 .hyphen li::before {
     content: "";
 	position: relative;
@@ -543,6 +552,7 @@ a.btn-yellow:active {
 	transform: translate(-50%, -50%);
     background-color: red;
 }
+
 .column-right {
 	width: 360px;
 	float: right;
@@ -552,24 +562,25 @@ a.btn-yellow:active {
 
 .logo-color {
 	 padding: 0;
-	 margin: 0 0 60px 0;
+	 margin: 0 0 60px 20px;
 }
 
 p.tagline {
 	font-size: 16px;
 	font-weight: bold;
 	line-height: 24px;
-	font-family: "Roboto", "Arial", "Sans Serif";
+	font-family: "Roboto", "Arial", "sans-serif";
 	text-transform: uppercase;
-	margin: 30px 0 0 0;
+	margin: 30px -20px 0 0;
 	text-align: center;
 
 }
+
 .call-item {
 	width: 115px;
 	display: inline-block;
-	vertical-align: bottom;
-	margim: 0;
+	vertical-align: middle;
+	margin: 0;
 	padding: 0;
 	position: relative;
 }
@@ -578,9 +589,9 @@ p.tagline {
 	font-size: 45px;
 	font-weight: bold;
 	line-height: 10px;
-	font-family: "Roboto", "Arial", "Sans Serif";
+	font-family: "Roboto", "Arial", "sans-serif";
 	padding: 0;
-	margin: 0 0 28px 0;
+	margin: 0 0 31px 19px;
 	display: block;
 }
 
@@ -593,7 +604,7 @@ p.tagline {
     background-repeat: no-repeat;
     width: 18px;
     height: 20px;
-    background-position: -10px -84px;
+    background-position: -10px -127px;
 }
 
 .call:nth-child(3) {
@@ -604,9 +615,11 @@ span {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 18px;
-	font-family: "Roboto", "Arial", "Sans Serif";
-    margin: 0;
-	padding: 0;
+	font-family: "Roboto", "Arial", "sans-serif";
+    padding: 0;
+    display: block;
+    margin: 0 0 0 19px;
+
 }
 
 .page-article {
@@ -616,7 +629,7 @@ span {
 
 .block-image {
 	width: 1160px;
-	padding: 50px 30px 34px 30px;
+	padding: 82px 29px 34px 4px;
 	border-top: 2px solid #eeeeee;
 	border-bottom: 2px solid #eeeeee;
 }
@@ -627,6 +640,7 @@ span {
 	display: inline-block;
 	vertical-align: middle;
 }
+
 .image-Academy a {
 	position: absolute;
 	background-image: url("../img/logo-sprite.png");
@@ -640,18 +654,21 @@ span {
     background-position: -10px -180px;
     z-index: 1;
 }
+
 .image-Academy a:hover {
 	width: 199px;
     height: 68px;
     background-position: -10px -268px;
     z-index: 10;
 }
+
 .image-Academy a:active {
 	width: 199px;
     height: 68px;
     background-position: -10px -356px;
     z-index: 200;
 }
+
 .image-Borodinski a {
 	position: absolute;
 	background-image: url("../img/logo-sprite.png");
@@ -665,6 +682,7 @@ span {
     background-position: -10px -529px;
     z-index: 1;
 }
+
 .image-Borodinski a:hover {
 	width: 209px;
     height: 90px;
@@ -677,6 +695,7 @@ span {
     background-position: -10px -746px;
 
 }
+
 .image-Pink a {
 	position: absolute;
 	background-image: url("../img/logo-sprite.png");
@@ -690,6 +709,7 @@ span {
     background-position: -10px -853px;
     z-index: 1;
 }
+
 .image-Pink a:hover {
 	 width: 185px;
     height: 52px;
@@ -701,6 +721,7 @@ span {
     height: 52px;
     background-position: -10px -997px;
 }
+
 .image-Mishka a {
 	position: absolute;
 	background-image: url("../img/logo-sprite.png");
@@ -714,6 +735,7 @@ span {
     background-position: -10px -1277px;
     z-index: 1;
 }
+
 .image-Mishka a:hover{
 	width: 173px;
     height: 84px;
@@ -726,6 +748,7 @@ span {
     height: 84px;
     background-position: -10px -1173px;
 }
+
 .image:first-child {
 	margin: 0;
     padding: 0 81px 0 0;
@@ -747,7 +770,7 @@ span {
 }
 
 .interactive-map {
-    margin: 0 0 0 0 ;
+    margin: 60px 0 0 0 ;
     padding: 0;
     position: relative;
 }
@@ -771,7 +794,7 @@ span {
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 30px;
-	font-family: "Roboto", "Arial", "Sans Serif";
+	font-family: "Roboto", "Arial", "sans-serif";
     text-transform: uppercase;
     margin: 0 0 23px -41px;
     padding: 0;
@@ -783,19 +806,17 @@ span {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 18px;
-	font-family: "Roboto", "Arial", "Sans Serif";
+	font-family: "Roboto", "Arial", "sans-serif";
 	color: #989898;
 }
-span.tele {
-	color: #989898;
-	margin: 0 0 0 -28px;
-}
+
 a.phone {
 	color: #989898;
 	text-decoration: none;
 	margin: 0 0 0 -28px;
 	padding: 0 27px 0 0;
 }
+
 .btn-item {
 	display: block;
     width: 220px;
@@ -830,25 +851,23 @@ a.btn-item:active{
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 30px;
-	font-family: "Roboto", "Arial", "Sans Serif";
+	font-family: "Roboto", "Arial", "sans-serif";
 	text-transform: uppercase;
 	margin: 0 0 45px 0;
-
 }
 
 .headlines-item {
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 30px;
-	font-family: "Roboto", "Arial", "Sans Serif";
+	font-family: "Roboto", "Arial", "sans-serif";
     text-transform: uppercase;
 	margin: 0 0 48px 0;
 }
 
 .choice-form {
 	width: 260px;
-	margin: 0;
-	padding: 0;
+	margin: -24px 0 0 20px;
 }
 
 form {
@@ -872,6 +891,7 @@ form {
 	border-radius: 5px;
 	overflow: hidden;
 }
+
 .range-controls .scale {
 	height: 2px;
 	background-color: #d7dcde;
@@ -895,9 +915,11 @@ form {
 	cursor: pointer;
 	box-shadow: 0 2px 1px 0 #cfcfcf;
 }
+
 .range-controls .min-toggle {
 	left: 40px;
 }
+
 .range-controls .max-toggle {
 	left: 155px;
 }
@@ -910,18 +932,17 @@ form {
 	background-color: #eeeeee;
 	font-size: 16px;
 	font-weight: normal;
-	ine-height: 22px;
+	line-height: 22px;
 	font-style: normal;
-	font-family: "Roboto", "Arial", "Sans Serif";
+	font-family: "Roboto", "Arial", "sans-serif";
 	color: #283136;
 	text-align: center;
 	border-radius: 5px;
-
 }
+
 .price-controls .min-price {
 	margin: 0 38px 0 0;
 }
-
 
 .variations-meshes,
 .features {
@@ -953,10 +974,14 @@ input[type="radio"] + label::before {
 	border: 2px solid #b8b8b8;
 	background-color: #ffffff;
 	border-radius: 50%;
-
 }
 
-input[type="radio"] + label::before:hover {
+input[type="radio"]:hover {
+    border: 2px solid #4d4d4d;
+	background-color: #ffffff;
+}
+
+input[type="radio"] + label:hover::before {
 	content: "";
 	display: block;
 	width: 20px;
@@ -965,19 +990,6 @@ input[type="radio"] + label::before:hover {
 	top: 0;
 	left: 0;
 	border: 2px solid #4d4d4d;
-	background-color: #ffffff;
-	border-radius: 50%;
-}
-
-input[type="radio"] + label::before:activ {
-	content: "";
-	display: block;
-	width: 20px;
-	height: 20px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	border: 2px solid #ededed;
 	background-color: #ffffff;
 	border-radius: 50%;
 }
@@ -994,7 +1006,12 @@ input[type="radio"]:checked + label::after {
 	border-radius: 50%;
 }
 
-input[type="radio"]:checked + label::after:hover {
+input[type="radio"]:checked:hover {
+	background-color: #4d4d4d;
+	border-radius: 50%;
+}
+
+input[type="radio"]:checked + label:hover::after {
 	content: "";
 	display: block;
 	width: 10px;
@@ -1006,7 +1023,13 @@ input[type="radio"]:checked + label::after:hover {
 	border-radius: 50%;
 }
 
-input[type="radio"]:checked + label::after:activ {
+/*input[type="radio"]:last-child:disabled {
+    background-color: #ededed;
+	border-radius: 50%;
+	border: 2px solid #ededed;
+}*/
+
+/*input[type="radio"] + label::after {
 	content: "";
 	display: block;
 	width: 10px;
@@ -1016,7 +1039,8 @@ input[type="radio"]:checked + label::after:activ {
 	left: 7px;
 	background-color: #ededed;
 	border-radius: 50%;
-}
+}*/
+
 input[type="checkbox"] {
     display: none;
 }
@@ -1032,34 +1056,44 @@ input[type="checkbox"] + label {
 input[type="checkbox"] + label::before {
 	content: "";
 	display: block;
-	width: 27px;
-	height: 23px;
+	width: 20px;
+	height: 20px;
 	position: absolute;
 	top: 0;
 	left: 0;
-	/*background-image: url("../img/sprite.png");
-	background-repeat: no-repeat;*/
 	opacity: 0.5;
-	 width: 23px;
-    height: 19px;
-   /* background-position: -10px -45px;*/
-	border: 2px solid #000000;
+	border: 2px solid #b8b8b8;
 	background-color: #ffffff;
-	border-radius: 3px;
+	border-radius: 5px;
+	z-index: 10;
 }
 
 input[type="checkbox"]:checked + label::after {
 	content: "";
 	position: absolute;
-	top: 3px;
-	left: 3px;
-	background-image: url("../img/sprite.png");
-    background-repeat: no-repeat;
-    opacity: 0.5;
-    width: 23px;
-    height: 19px;
-     background-position: -10px -45px;
+	top: 0px;
+	left: 0px;
+	width: 27px;
+    height: 23px;
+    display: block;
+    background: url("../img/sprite.png") no-repeat -10px -84px;
+    z-index: 50;
+}
 
+input[type="checkbox"]:checked + label:disabled {
+    opacity: 0.8;
+}
+
+input[type="checkbox"]:checked + label::after {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 27px;
+    height: 23px;
+    display: block;
+    background: url("../img/sprite.png") no-repeat -10px -84px;
+    z-index: 50;
 }
 
 .btn-form {
@@ -1067,38 +1101,44 @@ input[type="checkbox"]:checked + label::after {
     width: 260px;
     padding: 10px 0;
     margin: 25px 0 0 0;
-    font-size: 18px;
-	font-weight: normal;
-	line-height: 30px;
-	font-family: "Roboto", "Arial", "Sans Serif";
+    font-size: 16px;
+	font-weight: bold;
+	line-height: 18px;
+	font-family: "Roboto", "Arial", "sans-serif";
     color: #000000;
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
-    background: #eeeeee;
+    background-color: #eeeeee;
     border-radius: 3px; 
 }
 
-/*Правая часть с сайтами*/
+.btn-form:hover {
+    background-color: #dfdfdf;
+}
+
+.btn-form:active {
+    background-color: #d5d5d5;
+    color: #a9a9a9;
+}
 
 .template-selection {
 	width: 760px;
 	float: right;
-	margin: 0;
-	padding: 0;
+	margin: 0 -18px 0 0;
 }
 
 .template {
 	position: relative;
 	width: 358px;
 	border: 1px solid #eeeeee;
-	margin: 0 0 30px 0;
+	margin: 0 0 36px 0;
 	border-radius: 2px;
+	cursor: pointer;
 }
 
 .template:hover {
 	box-shadow: 0 10px 15px #4d4d4d;
-
 }
 
 .template:hover .selection {
@@ -1149,13 +1189,12 @@ input[type="checkbox"]:checked + label::after {
 
 .headlines-menu {
 	width: 273px;
-	/*height: 100%;*/
-	margin: 0 0 58px 0;
+	margin: 0 0 59px 0;
 	padding: 0;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 18px;
-	font-family: "Roboto", "Arial", "Sans Serif";
+	font-family: "Roboto", "Arial", "sans-serif";
 	float: left;
 }
 
@@ -1167,19 +1206,22 @@ input[type="checkbox"]:checked + label::after {
     margin: 3px 23px 0 0;
 	color: #cacaca;
 }
+
 .headlines-menu li:last-child {
 	 margin: 3px 0 0 0;
 	padding: 0;
 }
+
 .headlines-menu li a{
 	 margin: 0;
 	padding: 0;
 }
+
 .headlines-menu li:hover {
     color: #8d8d8d;
 }
 
-.headlines-menu li:activ {
+.headlines-menu li:active {
     color: #000000;
 }
 
@@ -1190,14 +1232,17 @@ input[type="checkbox"]:checked + label::after {
 	padding: 0;
 	list-style: none;
 }
+
 .search-menu li {
 	display: inline-block;
 	vertical-align: top;
 }
+
 .search-menu li a {
 	margin: 0;
 	padding: 0;
 }
+
 li.down a  {  
 	width: 10px;
 	height: 10px;
@@ -1211,11 +1256,12 @@ li.down a  {
 li.down a::after {
 	content: ''; 
     position: absolute; 
-    right: 0; 
-    top: 20px; 
+    right: -22px; 
+    top: 9px; 
     border: 5px solid transparent; 
     border-top: 10px solid #000000; 
 }
+
 li.up a {  
 	width: 10px;
 	height: 10px;
@@ -1229,13 +1275,14 @@ li.up a {
 li.up a::after {
     content: ''; 
     position: absolute; 
-    right: -10px; 
-    top: 5px; 
+    right: -37px; 
+    top: 7px; 
     border: 5px solid transparent;	
     border-bottom: 10px solid #cccccc;
 }
+
 li.up a::after:hover {
-	 border: 5px solid transparent; 
+	border: 5px solid transparent; 
     border-top: 10px solid #000000;
 }
 
@@ -1249,10 +1296,11 @@ li a {
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 18px;
-	font-family: "Roboto", "Arial", "Sans Serif";
+	font-family: "Roboto", "Arial", "sans-serif";
 	margin: 0;
 	padding: 0;
 }
+
 li a {
 	padding-right: 17px;
 	color: #b2b2b2;
@@ -1280,6 +1328,7 @@ li a:hover {
 	margin: 0;
 	padding: 0;
 }
+
 .selection {
 	position: absolute;
 	bottom: 0;
@@ -1291,15 +1340,17 @@ li a:hover {
 	padding: 23px 70px;
 	text-align: center;
 }
-.selection  h3 {
+
+.selection h3 {
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 30px;
-	font-family: "Roboto", "Arial", "Sans Serif";
+	font-family: "Roboto", "Arial", "sans-serif";
 	text-transform: uppercase;
 	margin: 0 0 15px 0;
 
 }
+
 .selection .btn {
     display: block;
     width: 200px;
@@ -1318,7 +1369,7 @@ li a:hover {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 18px;
-	font-family: "Roboto", "Arial", "Sans Serif";
+	font-family: "Roboto", "Arial", "sans-serif";
 	color: #666666;
 	margin: 0 0 0 0;
 	padding: 0;
@@ -1332,12 +1383,72 @@ li a:hover {
 	float: right;
 }
 
+.paginator {
+	width: 600px;
+	margin: 0;
+	padding: 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.paginator .btn {
+    min-width: 46px;
+	padding: 12px 0 12px  0;
+	margin: 0 10px 0 0;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 18px;
+	border-radius: 2px;
+	background-color: #eeeeee;
+	border: 3px solid #eeeeee;
+	color: #000000;
+}
+
+.btn.one {
+	border: 3px solid #dbdbdb;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.paginator .btn:hover,
+.paginator .next:hover {
+    background-color: #dfdfdf;
+    border: 3px solid #dfdfdf;
+}
+
+.paginator .btn:active,
+.paginator .next:active {
+	border: 3px solid #dbdbdb;
+	background-color: #d5d5d5;
+	color: #b5b5b5;
+}
+
+.paginator .next {
+	min-width: 260px;
+	padding: 15px 0 15px 0;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 18px;
+	border-radius: 2px;
+	background-color: #eeeeee;
+	border: 3px solid #eeeeee;
+	color: #000000;
+	text-transform: uppercase;
+}
+
 /*FOOTER*/
 
 .page-footer {
 	margin: 70px 0 0 0;
 	margin: 0 0 65px 0;
-	
 }
 
 .footer-social {
@@ -1357,104 +1468,135 @@ li a:hover {
     vertical-align: middle;
 	border-radius: 50px;
     margin: 0 10px 0 0;
-	background: #e1e1e1 url("../img/sprite.png") no-repeat 0 0;
-    
+    background-color: #e1e1e1;
 }
 
 .social-vk::after {
 	content: "";
     position: absolute;
-    top: 30px;
-    left: 25px;
+    top: 33px;
+    left: 27px;
+    width: 26px;
+    height: 15px;
+    display: block;
+	background: #e1e1e1 url("../img/sprite.png") no-repeat -10px -329px;
+}
+
+.social-vk:hover {
+    background-color: #e74246;
+}
+
+.social-vk:hover::after {
+	content: "";
+    position: absolute;
+    top: 33px;
+    left: 27px;
 	width: 26px;
     height: 15px;
-	background: #e1e1e1 url("../img/sprite.png") no-repeat -10px -286px;
+    display: block;
+    background:  #e74246 url("../img/sprite.png") no-repeat -10px -329px;
     
 }
-.social-vk a::after:hover {
-	content: "";
-    position: absolute;
-    top: 30px;
-    left: 25px;
-	width: 26px;
-    height: 15px;
-    background:  #e74246 url("../img/sprite.png") no-repeat -10px -286px;
 
+.social-vk:active {
+    background-color: #d7373b;
 }
 
-.social-vk a::after :active {
+.social-vk:active::after  {
 	content: "";
     position: absolute;
-    top: 30px;
-    left: 25px;
+    top: 33px;
+    left: 27px;
 	width: 26px;
     height: 14px;
-    background:  #d7373b url("../img/sprite.png") no-repeat -10px -321px;
-    
-
+    display: block;
+    background:  #d7373b url("../img/sprite.png") no-repeat -10px -364px;
 }
+
 .social-fb::after {
 	content: "";
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 29px;
+    left: 34px;
 	width: 12px;
     height: 22px;
-    background: #e1e1e1 url("../img/sprite.png") no-repeat -10px -124px;
+    display: block;
+    background: #e1e1e1 url("../img/sprite.png") no-repeat -10px -167px;
 }
 
-.social-fb a::after:hover {
+.social-fb:hover {
+	background-color: #e74246;
+}
+
+.social-fb:hover::after {
 	content: "";
     position: absolute;
     top: 30px;
-    left: 25px;
+    left: 35px;
     width: 10px;
     height: 20px;
-	background: #e74246 url("../img/sprite.png") no-repeat -10px -124px;
+    display: block;
+	background: #e74246 url("../img/sprite.png") no-repeat -10px -167px;
 }
 
-.social-fb a::after :active {
+.social-fb:active {
+    background-color: #d7373b;
+}
+
+.social-fb:active::after {
 	content: "";
     position: absolute;
     top: 30px;
-    left: 25px;
+    left: 35px;
 	width: 10px;
     height: 20px;
-    background: #d7373b url("../img/sprite.png") no-repeat -10px -166px;
+    display: block;
+    background: #d7373b url("../img/sprite.png") no-repeat -10px -209px;
 	
 }
 
 .social-inst::after {
 	content: "";
     position: absolute;
-    top: 30px;
-    left: 25px;
+    top: 33px;
+    left: 28px;
 	width: 21px;
     height: 21px;
-    background: #e1e1e1 url("../img/sprite.png") no-repeat -10px -206px;
+    display: block;
+    background: #e1e1e1 url("../img/sprite.png") no-repeat -10px -249px;
     
- }
+}
 
-.social-inst a::after :hover {
+ .social-inst:hover {
+ 	background-color: #e74246;
+}
+
+.social-inst:hover::after  {
 	content: "";
     position: absolute;
     top: 30px;
-    left: 25px;
+    left: 30px;
 	width: 21px;
     height: 21px;
-    background: #e74246 url("../img/sprite.png") no-repeat -10px -206px;
+    display: block;
+    background: #e74246 url("../img/sprite.png") no-repeat -10px -249px;
 	
 }
 
-.social-inst a::after :active {
+.social-inst:active {
+    background: #d7373b;
+}
+
+.social-inst:active::after  {
 	content: "";
     position: absolute;
     top: 30px;
-    left: 25px;
-	 width: 19px;
+    left: 30px;
+	width: 19px;
     height: 19px;
+    display: block;
     background-position: -10px -247px;
-    background: #d7373b url("../img/sprite.png") no-repeat -10px -247px;
+    background: #d7373b url("../img/sprite.png") no-repeat -10px -290px;
 }
 
 .footer-slogan {
@@ -1467,7 +1609,7 @@ li a:hover {
 	font-size: 35px;
 	font-weight: bold;
 	line-height: 36px;
-	font-family: "Roboto", "Arial", "Sans Serif";
+	font-family: "Roboto", "Arial", "sans-serif";
 	margin: 0;
 }
 
@@ -1475,16 +1617,16 @@ li a:hover {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 22px;
-	font-family: "Roboto", "Arial", "Sans Serif";
+	font-family: "Roboto", "Arial", "sans-serif";
 	margin: 10px 0 0 0;
 }
 
 /* Всплывающая форма */
+
 .modal-content {
 	width: 760px;
 	height: 440px;
-	/*position: fixed;*/
-    position: absolute;
+	position: absolute;
 	bottom: 0;
 	left: 0;
 	margin: 0 0 180px 240px;
@@ -1492,8 +1634,17 @@ li a:hover {
 	color: #000000;
 	background-color: #ffffff;
 	box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
-	display: none;
+	z-index: 1000;
+	/*display: none;*/
+}
 
+.modal-content-show {
+    display: block;
+    animation: bounce 0.6s;
+}
+
+.modal-error {
+  animation: shake 0.6s;
 }
 
 .modal-content-close {
@@ -1506,24 +1657,48 @@ li a:hover {
     font-size: 0px;
     cursor: pointer;
     border: 0;
-
 }
 
 .modal-content-close::before,
 .modal-content-close::after {
 	content: "";
-  position: absolute;
-  top: 10px;
-  left: 2px;
-
-  width: 24px;
-  height: 4px;
-  background-color: #fecccd;
-  border-radius: 1px;
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    width: 24px;
+    height: 4px;
+    background-color: #fecccd;
+    border-radius: 1px;
 }
+
+.modal-content-close:hover::before,
+.modal-content-close:hover::after {
+	content: "";
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    width: 24px;
+    height: 4px;
+    background-color: #fb565a;
+    border-radius: 1px;
+}
+
+.modal-content-close:disabled::before,
+.modal-content-close:disabled::after {
+	content: "";
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    width: 24px;
+    height: 4px;
+    background-color: #fb565a;
+    border-radius: 1px;
+}
+
 .modal-content-close::before {
 	transform: rotate(45deg);
 }
+
 .modal-content-close::after {
 	transform: rotate(-45deg);
 }
@@ -1532,7 +1707,7 @@ li a:hover {
 	font-size: 45px;
 	font-weight: normal;
 	line-height: 45px;
-	font-family: "Roboto", "Arial", "Sans Serif";
+	font-family: "Roboto", "Arial", "sans-serif";
 	margin: 0 0 50px 0;
 }
 
@@ -1548,6 +1723,7 @@ li a:hover {
  .write-form input {
     height: 50px;
 }
+
 .write-form input,
 textarea {
     width: 95%;
@@ -1557,17 +1733,39 @@ textarea {
     border-radius: 3px;
     vertical-align: middle;
 }
+
 textarea {
 	 margin: 0 0 50px 0;
 }
+
+.write-form input:hover,
+textarea:hover {
+    border: 1px solid #b4b9bb;
+    color:  #b4b9bb;
+}
+
+.write-form input:active,
+textarea:active {
+    border: 1px solid #000000;
+    color:  #000000;
+}
+
+.write-form input:invalid,
+textarea:invalid {
+    border: 1px solid #e74246;
+    color:  #e74246;
+}
+
 .half-width {
     width: 45%;
     display: inline-block;
     margin: 0;
 }
+
 .half-width:nth-child(1) {
 	margin: 0 40px 0 0;
 }
+
 button.btn  {
 	display: block;
     width: 260px;
@@ -1580,12 +1778,41 @@ button.btn  {
     text-decoration: none;
     background: #fb565a;
     border-radius: 3px;
-  
 } 
+
+/* Всплывающая форма */
+
+@keyframes bounce {
+  0%   {
+    transform: translateY(-2000px);
+  }
+  70%  {
+    transform: translateY(30px);
+  }
+  90%  {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
+
 /*sprite*/
 
 .sprite {
-    background-image: url("../img/sprite.png");
+    background-image: url("/img/sprite.png");
     background-repeat: no-repeat;
     display: block;
 }
@@ -1602,44 +1829,50 @@ button.btn  {
     background-position: -10px -45px;
 }
 
+.sprite-chekbox-one {
+    width: 27px;
+    height: 23px;
+    background-position: -10px -84px;
+}
+
 .sprite-percent {
     width: 18px;
     height: 20px;
-    background-position: -10px -84px;
+    background-position: -10px -127px;
 }
 
 .sprite-social-fb {
     width: 12px;
     height: 22px;
-    background-position: -10px -124px;
+    background-position: -10px -167px;
 }
 
 .sprite-social-fb-color {
     width: 10px;
     height: 20px;
-    background-position: -10px -166px;
+    background-position: -10px -209px;
 }
 
 .sprite-social-inst {
     width: 21px;
     height: 21px;
-    background-position: -10px -206px;
+    background-position: -10px -249px;
 }
 
 .sprite-social-inst-color {
     width: 19px;
     height: 19px;
-    background-position: -10px -247px;
+    background-position: -10px -290px;
 }
 
 .sprite-social-vk {
     width: 26px;
     height: 15px;
-    background-position: -10px -286px;
+    background-position: -10px -329px;
 }
 
 .sprite-social-vk-color {
     width: 26px;
     height: 14px;
-    background-position: -10px -321px;
+    background-position: -10px -364px;
 }
