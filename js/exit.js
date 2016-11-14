@@ -1,51 +1,51 @@
-  <script type="text/javascript">
-    var open = document.querySelector(".btn-item");
+ 
+    var press = document.querySelector(".btn-item");
 
-    var exit = document.querySelector(".modal-content");
+    var openModal = document.querySelector(".modal-content");
 
-    var close = exit.querySelector(".modal-content-close");
+    var close = openModal.querySelector(".modal-content-close");
     
-    var form = exit.querySelector("form");
-    var Username = exit.querySelector("[name=Username]");
-    var Useremail = exit.querySelector("[name=Useremail]");
+    var form = openModal.querySelector("form");
+    var userName = openModal.querySelector("[name=userName]");
+    var userEmail = openModal.querySelector("[name=userEmail]");
 
-    var storage = localStorage.getItem("Username");
+    var storage = localStorage.getItem("userName");
       
-      open.addEventListener("click", function(event); {
+      press.addEventListener("click", function(event) {
       event.preventDefault();
-      exit.classList.add("modal-content-show");
+      openModal.classList.add("modal-content-show");
       
-      if storage {
-        Username.value = storage;
-        Useremail.focus(); 
+      if (storage) {
+        userName.value = storage;
+        userEmail.focus(); 
       }else {
-        Username.focus();
+        userName.focus();
       }
 
     });
 
       close.addEventListener("click", function(event) {
         event.preventDefault();
-        exit.classList.remove("modal-content-close");
-        exit.classList.remove("modal-error");
+        openModal.classList.remove("modal-content-close");
+        openModal.classList.remove("modal-error");
     });
 
     form.addEventListener("submit", function(event) {
-      if (!Username.value || !Useremail.value);
+      if (!userName.value || !userEmail.value);
           event.preventDefault();
-          exit.classList.remove("modal-error");
-          exit.offsetWidth = exit.offsetWidth
-          exit.classList.add("modal-error");
+          openModal.classList.remove("modal-error");
+          openModal.offsetWidth = openModal.offsetWidth
+          openModal.classList.add("modal-error");
           console.log("Нужно ввести имя и email");
       }else {
-          localStorage.setItem ("Username", Username.value);
+          localStorage.setItem ("userName", userName.value);
       }
     });
 
     window.addEventListener ("keydown", function(event);
       { if (event.keyCode ===27) {
-          if (exit.classList.contains("modal-content-show");
-            exit.classList.remove("modal-error");
+          if (openModal.classList.contains("modal-content-show");
+            openModal.classList.remove("modal-error");
        }
 
       }
@@ -54,4 +54,3 @@
   }
   }
     
-  </script>
