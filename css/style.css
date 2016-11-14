@@ -644,9 +644,7 @@ span {
 
 .block-image {
 	width: 1160px;
-	padding: 82px 29px 34px 4px;
-	border-top: 2px solid #eeeeee;
-	border-bottom: 2px solid #eeeeee;
+	padding: 90px 29px 75px 4px;
 }
 
 .image {
@@ -781,7 +779,7 @@ span {
 
 .image:nth-child(3) {
 	margin: 0;
-    padding: 0;
+    padding: 0 0 0 78px;
 }
 
 .interactive-map {
@@ -1152,7 +1150,7 @@ input[type="checkbox"] + label:hover::after {
     text-align: center;
     text-decoration: none;
     background-color: #eeeeee;
-    border-color:  3px solid #eeeeee;
+    border-color: #eeeeee;
 }
 
 .btn-form:hover {
