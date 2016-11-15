@@ -51,7 +51,7 @@
             </div>
 
             <div class="range-filter">
-              <div class="range-controls">
+              <div class="range-controls"">
                 <div class="scale">
                   <div class="bar" style="width: 70%"  ></div>
                 </div>
@@ -72,27 +72,58 @@
           </div>
           <div class="variations-meshes">
             <p class="headlines-part">Сетка</p>
+            <ul class="radio-btn">
+              <li class="radio-btn-item">
 
             <input type="radio" name="price" id="Adaptive" value="Adaptive" checked/>
             <label for="Adaptive">Адаптивная</label>
+                </li>
+              <li class="radio-btn-item">
             <input type="radio" name="price" id="Fixed" value="Fixed"/>
             <label for="Fixed">Фиксированная</label>
+              </li>
+              <li class="radio-btn-item">
             <input type="radio" name="price" id="Rubber" value="Rubber"/>
             <label for="Rubber">Резиновая</label>
+              </li>
+            </ul>
           </div>
           <div class="features">
             <p class="headlines-part_two">Особенности</p>
-
-            <input type="checkbox" name="slider" id="slider" checked/>
-            <label for="slider">Слайдер</label>
-            <input type="checkbox" name="block-advantage" id="block-advantage"/>
-            <label for="block-advantage">Блок преимуществ</label>
+            <ul class="checkbox-btn">
+              <li class="checkbox-btn-item">
+                <label class="login-checkbox" for="slider">Слайдер
+                <input type="checkbox" name="slider" id="slider" checked/>
+                  <span class="checkbox-indicator"></span>
+                </label>
+              </li>
+              <li class="checkbox-btn-item">
+                <label class="login-checkbox" for="block-advantage">Блок преимуществ
+              <input type="checkbox" name="block-advantage" id="block-advantage"/>
+                  <span class="checkbox-indicator"></span>
+              </label>
+              </li>
+              <li class="checkbox-btn-item">
+                <label class="login-checkbox" for="news">Новости
             <input type="checkbox" name="news" id="news" checked/>
-            <label for="news">Новости</label>
+                  <span class="checkbox-indicator"></span>
+            </label>
+              </li>
+              <li class="checkbox-btn-item">
+                <label class="login-checkbox" for="gallery">Галерея
             <input type="checkbox" name="gallery" id="gallery"/>
-            <label for="gallery">Галерея</label>
+                  <span class="checkbox-indicator"></span>
+              </label>
+
+              </li>
+              <li class="checkbox-btn-item">
+                <label class="login-checkbox" for="basket">Корзина
             <input type="checkbox" name="basket" id="basket"/>
-            <label for="basket">Корзина</label>
+                  <span class="checkbox-indicator"></span>
+            </label>
+
+              </li>
+            </ul>
           </div>
 
           <button class="btn-form" type="submit">Показать</button>
@@ -286,5 +317,29 @@
     </section>
   </div>
 </footer>
+
+  <div class="modal-content">
+    <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+    <p class="modal-content-title">Напишите нам</p>
+    <form class="write-form" action="/echo" method="post">
+      <div class="half-width">
+        <label for="name">Ваше имя</label>
+        <input class="Username" type="text" name="userName" id="name" placeholder="Представьтесь, пожалуйста" required></div>
+      <div class="half-width">
+        <label for="email">Ваш e-mail:</label>
+        <input class="Useremail" type="email" name="userEmail" id="email" placeholder="Для отправки ответа" required></div>
+      <div class="review">
+        <label for="review">Текст письма:</label>
+        <textarea name="letter" id="review" cols="90" rows="5" placeholder="В свободной форме"></textarea>
+      </div>
+      <div class="buttons">
+        <button class="btn" type="submit">Отправить</button>
+      </div>
+    </form>
+  </div>
+  <div class="modal-overlay"></div>
+
+
+  <script src="js/Modal.js" type="text/javascript"></script>
 </body>
 </html>
