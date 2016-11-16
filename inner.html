@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet"/>
-  <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
+  <link href="css/normalize.css" type="text/css" rel="stylesheet" />
   <link href="css/style.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
@@ -51,22 +51,26 @@
             </div>
 
             <div class="range-filter">
-              <div class="range-controls"">
+              <div class="range-controls">
                 <div class="scale">
                   <div class="bar" style="width: 70%"  ></div>
                 </div>
                 <div class="toggle min-toggle"></div>
                 <div class="toggle max-toggle"></div>
               </div>
-              <div class="price-controls">
+              <div class="price-controls clearfix">
+                <ul class="price-controls-item">
+                  <li class="min-item">
                 <label for="min-price">
                   от
                   <input  class="min-price" name="min-price" type="text" id="min-price" value="0"></label>
-                <label for="max-price">
+                  </li>
+                  <li class="max-item">
+                <label  for="max-price">
                   до
-                  <input class="max-
-                  "  name="max-price" type="text" id="max-price" value="15 000"></label>
-
+                  <input class="max-price"  name="max-price" type="text" id="max-price" value="15 000"></label>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -74,17 +78,22 @@
             <p class="headlines-part">Сетка</p>
             <ul class="radio-btn">
               <li class="radio-btn-item">
-
-            <input type="radio" name="price" id="Adaptive" value="Adaptive" checked/>
-            <label for="Adaptive">Адаптивная</label>
+                <label class="login-radio disabled" for="adaptive">Адаптивная
+                <input type="radio" name="price" id="adaptive" value="adaptive" checked/>
+                  <span class="radio-indicator"></span>
+                </label>
                 </li>
               <li class="radio-btn-item">
-            <input type="radio" name="price" id="Fixed" value="Fixed"/>
-            <label for="Fixed">Фиксированная</label>
+                <label class="login-radio" for="fixed">Фиксированная
+            <input type="radio" name="price" id="fixed" value="fixed"/>
+                  <span class="radio-indicator"></span>
+               </label>
               </li>
               <li class="radio-btn-item">
-            <input type="radio" name="price" id="Rubber" value="Rubber"/>
-            <label for="Rubber">Резиновая</label>
+                <label for="rubber" class="login-radio">Резиновая
+            <input type="radio" name="price" id="rubber" value="rubber"/>
+                <span class="radio-indicator"></span>
+               </label>
               </li>
             </ul>
           </div>
@@ -125,13 +134,11 @@
               </li>
             </ul>
           </div>
-
-          <button class="btn-form" type="submit">Показать</button>
-
+            <button class="btn-form" type="submit">Показать</button>
         </form>
       </section>
 
-      <section class="template-selection">
+      <section class="template-selection clarfix">
         <div class="template-left">
           <div class="sort-templates">
             <p class="headlines">сортировать</p>
@@ -306,9 +313,9 @@
   <div class="container clearfix">
     <section >
       <div class="footer-social">
-        <a class="social-btn social-vk" href="#" >Вконтакте</a>
-        <a class="social-btn social-fb" href="#" >Фейсбук</a>
-        <a class="social-btn social-inst" href="#" >Инстаграм</a>
+        <a class="social-btn social-vk" href="https://vk.com" >Вконтакте</a>
+        <a class="social-btn social-fb" href="https://www.facebook.com" >Фейсбук</a>
+        <a class="social-btn social-inst" href="https://www.instagram.com" >Инстаграм</a>
       </div>
       <div class="footer-slogan">
         <p class="slogan">Давайте дружить, это выгодно!</p>
