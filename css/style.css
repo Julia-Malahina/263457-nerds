@@ -242,9 +242,11 @@ h3 {
 }
 
 .slide-text {
-    width: 380px;
-	margin: 30px 0;
+	width: 380px;
+	height: 432px;
+	margin: 0;
 	color: #283136;
+    float: left;
 }
 
 .slide-title {
@@ -252,14 +254,14 @@ h3 {
 	font-weight: bold;
 	line-height: 55px;
 	font-family: "Roboto", "Arial", sans-serif;
-	margin: 49px 0 0 19px;
+	margin: 80px 0 0 18px;
 	color: #000000;
 	width: 520px;
 }
 
 .slide-item {
 	width: 365px;
-	margin: 26px 0 40px 19px;
+	margin: 26px 0 40px 18px;
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 24px;
@@ -584,57 +586,45 @@ a.btn-yellow:active {
 
 .image-Academy a {
 	position: absolute;
-	background: url("../img/logo-sprite.png") no-repeat -10px -180px;
 	top: 50%;
 	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
 	display: block;
 	width: 199px;
 	height: 68px;
-	z-index: 1;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 0.4;
 }
 
-.image-Academy a:hover {
-	width: 199px;
-	height: 68px;
-	background-position: -10px -268px;
+.image-Academy a:hover,
+.image-Borodinski a:hover,
+.image-Pink a:hover,
+.image-Mishka a:hover {
+	opacity: 1;
+	z-index: 200;
 }
 
-.image-Academy a:active {
-	width: 199px;
-	height: 68px;
-	background-position: -10px -356px;
+.image-Academy a:active,
+.image-Borodinski a:active,
+.image-Pink a:active,
+.image-Mishka a:active {
+	opacity: 0.1;
 }
 
 .image-Borodinski a {
 	position: absolute;
-	background: url("../img/logo-sprite.png") no-repeat -10px -529px;
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	display: block;
 	width: 209px;
-	height: 87px;
-	z-index: 1;
-}
-
-.image-Borodinski a:hover {
-	width: 209px;
 	height: 90px;
-	background-position: -10px -636px;
-}
-
-.image-Borodinski a:active {
-	width: 209px;
-	height: 87px;
-	background-position: -10px -746px;
+	opacity: 0.4;
 }
 
 .image-Pink a {
 	position: absolute;
-	background: url("../img/logo-sprite.png") no-repeat -10px -853px;
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
@@ -642,24 +632,11 @@ a.btn-yellow:active {
 	display: block;
 	width: 185px;
 	height: 52px;
-	z-index: 1;
-}
-
-.image-Pink a:hover {
-	width: 185px;
-	height: 52px;
-	background-position: -10px -925px;
-}
-
-.image-Pink a:active {
-	width: 185px;
-	height: 52px;
-	background-position: -10px -997px;
+	opacity: 0.4;
 }
 
 .image-Mishka a {
 	position: absolute;
-	background: url("../img/logo-sprite.png") no-repeat -10px -1277px;
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
@@ -668,19 +645,7 @@ a.btn-yellow:active {
 	width: 173px;
 	height: 84px;
 	margin: 0;
-	z-index: 1;
-}
-
-.image-Mishka a:hover{
-	width: 173px;
-	height: 84px;
-	background-position: -10px -1069px;
-}
-
-.image-Mishka a:active{
-	width: 173px;
-	height: 84px;
-	background-position: -10px -1173px;
+	opacity: 0.4;
 }
 
 .image:first-child {
@@ -756,17 +721,22 @@ a.btn-yellow:active {
 	position: relative;
 }
 
+.fixed-map {
+    display: none;
+}
+
 .form-write {
 	width: 220px;
 	min-height: 210px;
 	background-color: #ffffff;
 	position: absolute;
-	top: 53px;
-	left: 92px;
+	top: 54px;
+	left: 50%;
 	display: block;
 	vertical-align: middle;
 	text-align: center;
 	padding: 50px  50px 50px 50px;
+    margin: 0 0 0 -580px;
 }
 
 .head {
@@ -775,7 +745,7 @@ a.btn-yellow:active {
 	line-height: 30px;
 	font-family: "Roboto", "Arial", sans-serif;
 	text-transform: uppercase;
-	margin: 0 0 23px -24px;
+	margin: 0 0 23px -29px;
 	padding: 0;
 }
 
@@ -799,8 +769,8 @@ a.phone {
 .btn-item {
 	display: block;
 	width: 220px;
-	padding: 16px 0 15px 0;
-	margin: 35px 0 0 0;
+	padding: 17px 0 17px 0;
+	margin: 36px 0 0 -2px;
 	font-size: 16px;
 	line-height: 18px;
 	color: white;
@@ -1213,9 +1183,13 @@ input[type="checkbox"] {
 	position: relative;
 	width: 358px;
 	border: 1px solid #eeeeee;
-	margin: 0 0 36px 0;
+	margin: 0 0 33px 0;
 	border-radius: 2px;
 	cursor: pointer;
+}
+
+.template:nth-child(2) {
+    margin: 0 0 36px 0;
 }
 
 .template:hover {
@@ -1489,7 +1463,7 @@ li a:hover {
 
 .paginator {
 	width: 600px;
-	margin: 20px 0 0 0;
+	margin: 25px 0 0 0;
 	padding: 0;
 	display: inline-block;
 	vertical-align: middle;
