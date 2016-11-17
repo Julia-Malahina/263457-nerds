@@ -8,7 +8,7 @@ body {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 24px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	position: relative;
 }
 
@@ -16,7 +16,7 @@ h1 {
 	font-size: 55px;
 	font-weight: bold;
 	line-height: 55px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	margin: 0 auto;
 	padding: 78px 0 108px 217px;
 }
@@ -25,7 +25,7 @@ h2 {
 	font-size: 24px;
 	font-weight: bold;
 	line-height: 30px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	margin: 0 0 16px 0;
 	text-transform: uppercase;
 }
@@ -34,7 +34,7 @@ h3 {
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 30px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	padding: 0;
 }
 
@@ -85,7 +85,6 @@ h3 {
 	transform: translate(-50%, -50%);
 	width: 161px;
 	height: 65px;
-
 }
 
 .logo a:hover {
@@ -112,7 +111,7 @@ h3 {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 30px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	margin: 76px 0 0 0;
 	padding: 0;
 }
@@ -243,8 +242,8 @@ h3 {
 }
 
 .slide-text {
-	width: 380px;
-	padding: 30px 0;
+    width: 380px;
+	margin: 30px 0;
 	color: #283136;
 }
 
@@ -252,7 +251,7 @@ h3 {
 	font-size: 55px;
 	font-weight: bold;
 	line-height: 55px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	margin: 49px 0 0 19px;
 	color: #000000;
 	width: 520px;
@@ -264,7 +263,7 @@ h3 {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 24px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 }
 
 .btn-slide {
@@ -421,7 +420,7 @@ a.btn-yellow:active {
 	font-size: 45px;
 	font-weight: bold;
 	line-height: 45px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	padding: 0;
 	margin: 0 0 35px 19px;
 }
@@ -430,7 +429,7 @@ a.btn-yellow:active {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 24px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	width: 625px;
 	margin: 0 0 36px 19px;
 }
@@ -438,6 +437,7 @@ a.btn-yellow:active {
 .column-left h3 {
 	margin: -2px 0 0 19px;
 }
+
 .development {
 	padding: 0 0 0 15px;
 	margin: 0 0 0 40px;
@@ -485,15 +485,14 @@ a.btn-yellow:active {
 	margin: 0 0 60px 20px;
 }
 
-.tagline {
+.title {
 	font-size: 16px;
 	font-weight: bold;
-	line-height: 24px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	line-height: 22px;
+	font-family: "Roboto", "Arial", sans-serif;
 	text-transform: uppercase;
 	margin: 30px -20px 0 0;
 	text-align: center;
-
 }
 
 .call-item {
@@ -509,7 +508,7 @@ a.btn-yellow:active {
 	font-size: 45px;
 	font-weight: bold;
 	line-height: 10px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	padding: 0;
 	margin: 0 0 34px 19px;
 	display: block;
@@ -533,7 +532,7 @@ a.btn-yellow:active {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 18px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	padding: 0;
 	display: block;
 	margin: 0 0 0 21px;
@@ -774,7 +773,7 @@ a.btn-yellow:active {
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 30px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	text-transform: uppercase;
 	margin: 0 0 23px -24px;
 	padding: 0;
@@ -786,7 +785,7 @@ a.btn-yellow:active {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 18px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	color: #989898;
 }
 
@@ -822,12 +821,14 @@ a.btn-item:active{
 }
 
 .headlines {
+	width: 140px;
+	float: left;
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 30px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	text-transform: uppercase;
-	margin: 0 0 0 -2px;
+	margin: 0;
 }
 
 .price-range {
@@ -840,7 +841,7 @@ a.btn-item:active{
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 30px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	text-transform: uppercase;
 	margin: 0 0 49px 0;
 }
@@ -869,7 +870,6 @@ form {
 	margin: 0;
 	padding: 0;
 }
-
 
 .range {
 	margin: 0;
@@ -934,7 +934,7 @@ form {
 	font-weight: normal;
 	line-height: 22px;
 	font-style: normal;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	color: #283136;
 	text-align: center;
 	border-radius: 5px;
@@ -958,6 +958,7 @@ form {
 li.max-item {
 	margin: 0 0 0 37px;
 }
+
 li.min-item {
 	margin: 0 0 0 10px;
 }
@@ -975,6 +976,7 @@ li.min-item {
 	width: 260px;
 	padding: 0;
 }
+
 .variations-meshes li,
 .features li {
 	list-style-type: none;
@@ -1035,7 +1037,7 @@ input[type="radio"] {
 	border-radius: 50%;
 }
 
-.login-radio input[type="radio"] + .radio-indicator:hover {
+.login-radio input[type="radio"]:hover + .radio-indicator {
 	display: block;
 	width: 20px;
 	height: 20px;
@@ -1046,7 +1048,7 @@ input[type="radio"] {
 	border-radius: 50%;
 }
 
-.login-radio input[type="radio"]:checked + .radio-indicator:hover::after {
+.login-radio input[type="radio"]:checked:hover + .radio-indicator::after {
 	content: "";
 	display: block;
 	width: 10px;
@@ -1058,7 +1060,7 @@ input[type="radio"] {
 	border-radius: 50%;
 }
 
-.login-radio input[type="radio"] + .radio-indicator:disabled {
+.login-radio input[type="radio"]:disabled + .radio-indicator::after {
 	display: block;
 	width: 20px;
 	height: 20px;
@@ -1066,10 +1068,11 @@ input[type="radio"] {
 	top: 0;
 	left: 0;
 	border: 2px solid #4d4d4d;
+	opacity: 0.1;
 	border-radius: 50%;
 }
 
-.login-radio input[type="radio"]:checked + .radio-indicator:disabled::after {
+.login-radio input[type="radio"]:checked:disabled + .radio-indicator::after {
 	content: "";
 	display: block;
 	width: 10px;
@@ -1078,6 +1081,7 @@ input[type="radio"] {
 	top: 5px;
 	left: 5px;
 	background-color: #4d4d4d;
+	opacity: 0.1;
 	border-radius: 50%;
 }
 
@@ -1121,7 +1125,7 @@ input[type="checkbox"] {
 	z-index: 10;
 }
 
-.login-checkbox input[type="checkbox"] + .checkbox-indicator:hover {
+.login-checkbox input[type="checkbox"]:hover + .checkbox-indicator {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1133,7 +1137,7 @@ input[type="checkbox"] {
 	z-index: 20;
 }
 
-.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator:hover::after {
+.login-checkbox input[type="checkbox"]:checked:hover + .checkbox-indicator::after {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -1142,6 +1146,32 @@ input[type="checkbox"] {
 	height: 19px;
 	display: block;
 	background: url("../img/sprite.png") no-repeat -10px -45px;
+	z-index: 300;
+}
+
+.login-checkbox input[type="checkbox"]:disabled + .checkbox-indicator {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 18px;
+	height: 18px;
+	display: block;
+	border: 2px solid #4d4d4d;
+	border-radius: 5px;
+	opacity: 0.3;
+	z-index: 20;
+}
+
+.login-checkbox input[type="checkbox"]:checked:disabled + .checkbox-indicator::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 23px;
+	height: 19px;
+	display: block;
+	background: url("../img/sprite.png") no-repeat -10px -45px;
+	opacity: 0.3;
 	z-index: 300;
 }
 
@@ -1154,7 +1184,7 @@ input[type="checkbox"] {
 	font-size: 16px;
 	font-weight: bold;
 	line-height: 18px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	color: #000000;
 	text-transform: uppercase;
 	text-align: center;
@@ -1233,12 +1263,12 @@ input[type="checkbox"] {
 	vertical-align: top;
 	background-color: #ffffff;
 	border-radius: 50%;
-
 }
 
 .headlines-sort {
 	width: 360px;
-	margin: 0 0 49px 0;
+	float: right;
+	margin: 0;
 }
 
 .headlines-menu {
@@ -1248,7 +1278,7 @@ input[type="checkbox"] {
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 18px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	float: left;
 }
 
@@ -1320,6 +1350,15 @@ input[type="checkbox"] {
 	border-top: 10px solid #000000;
 }
 
+.down a:hover::after {
+	content: '';
+	position: absolute;
+	right: -20px;
+	top: 4px;
+	border: 5px solid transparent;
+	border-top: 10px solid #cccccc;
+}
+
 .up a {
 	width: 10px;
 	height: 10px;
@@ -1339,6 +1378,15 @@ input[type="checkbox"] {
 	border-bottom: 10px solid #cccccc;
 }
 
+.up a:hover::after {
+	content: '';
+	position: absolute;
+	right: -45px;
+	top: -2px;
+	border: 5px solid transparent;
+	border-bottom: 10px solid #000000;
+}
+
 .price,
 .sort,
 li a {
@@ -1349,7 +1397,7 @@ li a {
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 18px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -1394,33 +1442,40 @@ li a:hover {
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 30px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	text-transform: uppercase;
 	margin: 0 0 15px 0;
-
 }
 
 .selection .btn {
-	display: block;
-	width: 200px;
-	padding: 13px 0;
-	margin: 31px 0 0 8px;
-	font-size: 16px;
-	color: white;
-	text-transform: uppercase;
-	text-align: center;
-	text-decoration: none;
-	background: #fb565a;
-	border-radius: 3px;
+    display: block;
+    width: 200px;
+    padding: 13px 0;
+    margin: 30px 0 0 8px;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    background: #fb565a;
+    border-radius: 3px;
+}
+
+.selection .btn:hover {
+    background-color: #e74246;
+}
+
+.selection .btn:active {
+    background-color: #d7373b;
 }
 
 .selection-item  {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 18px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	color: #666666;
-	margin: 0 0 0 0;
+	margin: 0 0 0 14px;
 	padding: 0;
 	width: 190px;
 }
@@ -1661,7 +1716,7 @@ li a:hover {
 	font-size: 36px;
 	font-weight: bold;
 	line-height: 36px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	margin: 0;
 }
 
@@ -1669,7 +1724,7 @@ li a:hover {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 22px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	margin: 9px 0 0 -2px;
 }
 
@@ -1688,7 +1743,7 @@ li a:hover {
 	background-color: #ffffff;
 	box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
 	display: none;
-	z-index: 20;
+	z-index: 1;
 }
 
 .modal-overlay {
@@ -1698,8 +1753,9 @@ li a:hover {
 	width: 100%;
 	height: 100%;
 	background-color:  rgba(0, 0, 0, 0.5);
-	z-index: 10;
+	z-index: 999;
 	display: none;
+	text-align: center;
 }
 
 .modal-content-show {
@@ -1748,6 +1804,19 @@ li a:hover {
 	background-color: #fb565a;
 	border-radius: 1px;
 }
+
+.modal-content-close:active::before,
+.modal-content-close:active::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    width: 24px;
+    height: 4px;
+    background-color: #ffeeee;
+    border-radius: 1px;
+}
+
 .modal-content-close::before {
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -1766,7 +1835,7 @@ li a:hover {
 	font-size: 45px;
 	font-weight: normal;
 	line-height: 45px;
-	font-family: "Roboto", "Arial", "sans-serif";
+	font-family: "Roboto", "Arial", sans-serif;
 	margin: 0 0 50px 0;
 }
 
@@ -1788,9 +1857,10 @@ textarea {
 	width: 95%;
 	margin: 0 0 35px 0;
 	padding: 2px 5px;
-	border: 1px solid #cccccc;
+	border: 2px solid #d7dcde;
 	border-radius: 3px;
 	vertical-align: middle;
+    outline: none;
 }
 
 textarea {
@@ -1798,16 +1868,27 @@ textarea {
 	resize: none;
 }
 
-.write-form input:hover,
+.username:hover,
+.useremail:hover,
 textarea:hover {
-	border: 1px solid #b4b9bb;
+	border: 2px solid #b4b9bb;
 	color:  #b4b9bb;
+    outline: none;
 }
 
-.write-form input:active,
+.username:active,
+.useremail:active,
 textarea:active {
-	border: 1px solid #000000;
+	border: 2px solid #000000;
 	color:  #000000;
+    outline: none;
+}
+
+.username:invalid,
+.useremail:invalid {
+    border: 2px solid #e74246;
+    color:  #e74246;
+    outline: none;
 }
 
 .half-width {
@@ -1832,7 +1913,8 @@ button.btn  {
 	text-decoration: none;
 	background: #fb565a;
 	border-radius: 3px;
-	outline: none;
+	border: none;
+    outline: none;
 }
 
 /* Всплывающая форма */

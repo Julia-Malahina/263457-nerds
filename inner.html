@@ -9,7 +9,7 @@
 </head>
 <body>
   <header class="page-head">
-    <div class="container clarfix">
+    <div class="container clearfix">
       <div class="content-header clearfix">
         <div class="logo">
           <a href="index.html">
@@ -53,7 +53,7 @@
             <div class="range-filter">
               <div class="range-controls">
                 <div class="scale">
-                  <div class="bar" style="width: 70%"  ></div>
+                  <div class="bar"  ></div>
                 </div>
                 <div class="toggle min-toggle"></div>
                 <div class="toggle max-toggle"></div>
@@ -61,14 +61,14 @@
               <div class="price-controls clearfix">
                 <ul class="price-controls-item">
                   <li class="min-item">
-                <label for="min-price">
-                  от
-                  <input  class="min-price" name="min-price" type="text" id="min-price" value="0"></label>
+                    <label for="min-price">
+                      от
+                      <input  class="min-price" name="min-price" type="text" id="min-price" value="0"></label>
                   </li>
                   <li class="max-item">
-                <label  for="max-price">
-                  до
-                  <input class="max-price"  name="max-price" type="text" id="max-price" value="15 000"></label>
+                    <label  for="max-price">
+                      до
+                      <input class="max-price"  name="max-price" type="text" id="max-price" value="15 000"></label>
                   </li>
                 </ul>
               </div>
@@ -78,22 +78,25 @@
             <p class="headlines-part">Сетка</p>
             <ul class="radio-btn">
               <li class="radio-btn-item">
-                <label class="login-radio disabled" for="adaptive">Адаптивная
-                <input type="radio" name="price" id="adaptive" value="adaptive" checked/>
-                  <span class="radio-indicator"></span>
+                <label class="login-radio" for="adaptive">
+                  Адаптивная
+                  <input type="radio" name="price" id="adaptive" value="adaptive" checked />
+                  <span class="radio-indicator disabled"></span>
                 </label>
-                </li>
-              <li class="radio-btn-item">
-                <label class="login-radio" for="fixed">Фиксированная
-            <input type="radio" name="price" id="fixed" value="fixed"/>
-                  <span class="radio-indicator"></span>
-               </label>
               </li>
               <li class="radio-btn-item">
-                <label for="rubber" class="login-radio">Резиновая
-            <input type="radio" name="price" id="rubber" value="rubber"/>
-                <span class="radio-indicator"></span>
-               </label>
+                <label class="login-radio" for="fixed">
+                  Фиксированная
+                  <input type="radio" name="price" id="fixed" value="fixed"/>
+                  <span class="radio-indicator"></span>
+                </label>
+              </li>
+              <li class="radio-btn-item">
+                <label for="rubber" class="login-radio">
+                  Резиновая
+                  <input type="radio" name="price" id="rubber" value="rubber" disabled/>
+                  <span class="radio-indicator"></span>
+                </label>
               </li>
             </ul>
           </div>
@@ -101,108 +104,52 @@
             <p class="headlines-part_two">Особенности</p>
             <ul class="checkbox-btn">
               <li class="checkbox-btn-item">
-                <label class="login-checkbox" for="slider">Слайдер
-                <input type="checkbox" name="slider" id="slider" checked/>
+                <label class="login-checkbox" for="slider">
+                  Слайдер
+                  <input type="checkbox" name="slider" id="slider" checked/>
                   <span class="checkbox-indicator"></span>
                 </label>
               </li>
               <li class="checkbox-btn-item">
-                <label class="login-checkbox" for="block-advantage">Блок преимуществ
-              <input type="checkbox" name="block-advantage" id="block-advantage"/>
+                <label class="login-checkbox" for="block-advantage">
+                  Блок преимуществ
+                  <input type="checkbox" name="block-advantage" id="block-advantage"/>
                   <span class="checkbox-indicator"></span>
-              </label>
+                </label>
               </li>
               <li class="checkbox-btn-item">
-                <label class="login-checkbox" for="news">Новости
-            <input type="checkbox" name="news" id="news" checked/>
+                <label class="login-checkbox" for="news">
+                  Новости
+                  <input type="checkbox" name="news" id="news" checked disabled/>
                   <span class="checkbox-indicator"></span>
-            </label>
+                </label>
               </li>
               <li class="checkbox-btn-item">
-                <label class="login-checkbox" for="gallery">Галерея
-            <input type="checkbox" name="gallery" id="gallery"/>
+                <label class="login-checkbox" for="gallery">
+                  Галерея
+                  <input type="checkbox" name="gallery" id="gallery"/>
                   <span class="checkbox-indicator"></span>
-              </label>
+                </label>
 
               </li>
               <li class="checkbox-btn-item">
-                <label class="login-checkbox" for="basket">Корзина
-            <input type="checkbox" name="basket" id="basket"/>
+                <label class="login-checkbox" for="basket">
+                  Корзина
+                  <input type="checkbox" name="basket" id="basket"/>
                   <span class="checkbox-indicator"></span>
-            </label>
+                </label>
 
               </li>
             </ul>
           </div>
-            <button class="btn-form" type="submit">Показать</button>
+          <button class="btn-form" type="submit">Показать</button>
         </form>
       </section>
 
-      <section class="template-selection clarfix">
-        <div class="template-left">
-          <div class="sort-templates">
-            <p class="headlines">сортировать</p>
-          </div>
-          <div class="template">
-            <div class="template-item">
-              <div class="template-menu">
-                <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
-              <div class="template-img">
-                <img src="img/Sedona.jpg" width="360" height="576" alt="Sedona"></div>
-
-              <div class="selection">
-                <h3>Sedona</h3>
-                <p class="selection-item">Информационный сайт для туристов</p>
-                <a class="btn" href="#">9 900руб.</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="template">
-            <div class="template-item">
-              <div class="template-menu">
-                <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
-              <div class="template-img">
-                <img src="img/borodinski.jpg" width="360" height="576" alt="Borodinski"></div>
-            </div>
-            <div class="selection">
-              <h3>Borodinski</h3>
-              <p class="selection-item">Сайт салоны красоты. Для мужчин, да.</p>
-              <a class="btn" href="#">9 900руб.</a>
-            </div>
-          </div>
-
-          <div class="template">
-            <div class="template-item">
-              <div class="template-menu">
-                <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
-              <div class="template-img">
-                <img src="img/A-Plus.jpg" width="360" height="576" alt="A Plus"></div>
-            </div>
-            <div class="selection">
-              <h3>A Plus</h3>
-              <p class="selection-item">Лендинг курсов повышения квалификации</p>
-              <a class="btn" href="#">9 900руб.</a>
-            </div>
-          </div>
-        </div>
-        <div class="template-right">
-          <div class="headlines-sort clearfix">
+      <section class="template-selection clearfix">
+        <div class="sort-templates clearfix">
+          <p class="headlines">сортировать</p>
+          <div class="headlines-sort ">
             <ul class="headlines-menu">
               <li>
                 <a  class="first-link" href="#">по цене</a>
@@ -223,6 +170,64 @@
               </li>
             </ul>
           </div>
+        </div>
+        <div class="template-left">
+          <div class="template">
+            <div class="template-item">
+              <div class="template-menu">
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div class="template-img">
+                <img src="img/Sedona.jpg" width="360" height="576" alt="Sedona"></div>
+              <div class="selection">
+                <h3>Sedona</h3>
+                <p class="selection-item">Информационный сайт для туристов</p>
+                <a class="btn" href="#">9 900руб.</a>
+              </div>
+            </div>
+          </div>
+          <div class="template">
+            <div class="template-item">
+              <div class="template-menu">
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div class="template-img">
+                <img src="img/borodinski.jpg" width="360" height="576" alt="Borodinski"></div>
+            </div>
+            <div class="selection">
+              <h3>Borodinski</h3>
+              <p class="selection-item">Сайт салоны красоты. Для мужчин, да.</p>
+              <a class="btn" href="#">9 900руб.</a>
+            </div>
+          </div>
+          <div class="template">
+            <div class="template-item">
+              <div class="template-menu">
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div class="template-img">
+                <img src="img/A-Plus.jpg" width="360" height="576" alt="A Plus"></div>
+            </div>
+            <div class="selection">
+              <h3>A Plus</h3>
+              <p class="selection-item">Лендинг курсов повышения квалификации</p>
+              <a class="btn" href="#">9 900руб.</a>
+            </div>
+          </div>
+        </div>
+        <div class="template-right">
           <div class="template">
             <div class="template-item">
               <div class="template-menu">
@@ -281,12 +286,11 @@
           </div>
         </div>
         <div class="paginator">
-            <a class="btn one " href="#">1</a>
-            <a class="btn two" href="#">2</a>
-            <a class="btn three" href="#">3</a>
-            <a class="next" href="#">следующая</a>
-          </div>
-
+          <a class="btn one " href="#">1</a>
+          <a class="btn two" href="#">2</a>
+          <a class="btn three" href="#">3</a>
+          <a class="next" href="#">следующая</a>
+        </div>
       </section>
     </div>
   </main>
@@ -301,29 +305,27 @@
         <p class="address">
           191186, Санкт-Петербург.
           <br>ул. Б.Кошюшенная, д.19/8</p>
-        <!-- <span class="tele">тел.</span>
-      -->
-      <a class="phone" href="tel:+78122757575">тел. +7 (812) 275-75-75</a>
-      <a class="btn-item" href="#" >Напишите нам</a>
-    </div>
-  </section>
-</div>
-
-<footer class="page-footer">
-  <div class="container clearfix">
-    <section >
-      <div class="footer-social">
-        <a class="social-btn social-vk" href="https://vk.com" >Вконтакте</a>
-        <a class="social-btn social-fb" href="https://www.facebook.com" >Фейсбук</a>
-        <a class="social-btn social-inst" href="https://www.instagram.com" >Инстаграм</a>
-      </div>
-      <div class="footer-slogan">
-        <p class="slogan">Давайте дружить, это выгодно!</p>
-        <p class="slogan-mini">Скидка 10% для друзей из социальных сетей</p>
+        <a class="phone" href="tel:+78122757575">тел. +7 (812) 275-75-75</a>
+        <a class="btn-item" href="#" >Напишите нам</a>
       </div>
     </section>
   </div>
-</footer>
+
+  <footer class="page-footer">
+    <div class="container clearfix">
+      <section >
+        <div class="footer-social">
+          <a class="social-btn social-vk" href="https://vk.com" >Вконтакте</a>
+          <a class="social-btn social-fb" href="https://www.facebook.com" >Фейсбук</a>
+          <a class="social-btn social-inst" href="https://www.instagram.com" >Инстаграм</a>
+        </div>
+        <div class="footer-slogan">
+          <p class="slogan">Давайте дружить, это выгодно!</p>
+          <p class="slogan-mini">Скидка 10% для друзей из социальных сетей</p>
+        </div>
+      </section>
+    </div>
+  </footer>
 
   <div class="modal-content">
     <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
@@ -331,10 +333,10 @@
     <form class="write-form" action="/echo" method="post">
       <div class="half-width">
         <label for="name">Ваше имя</label>
-        <input class="Username" type="text" name="userName" id="name" placeholder="Представьтесь, пожалуйста" required></div>
+        <input class="username" type="text" name="userName" id="name" placeholder="Представьтесь, пожалуйста" required></div>
       <div class="half-width">
         <label for="email">Ваш e-mail:</label>
-        <input class="Useremail" type="email" name="userEmail" id="email" placeholder="Для отправки ответа" required></div>
+        <input class="useremail" type="email" name="userEmail" id="email" placeholder="Для отправки ответа" required></div>
       <div class="review">
         <label for="review">Текст письма:</label>
         <textarea name="letter" id="review" cols="90" rows="5" placeholder="В свободной форме"></textarea>
@@ -343,10 +345,9 @@
         <button class="btn" type="submit">Отправить</button>
       </div>
     </form>
+    <div class="modal-overlay"></div>
   </div>
-  <div class="modal-overlay"></div>
 
-
-  <script src="js/Modal.js" type="text/javascript"></script>
+  <script src="js/modal.js" type="text/javascript"></script>
 </body>
 </html>
