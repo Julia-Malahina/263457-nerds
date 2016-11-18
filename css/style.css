@@ -127,7 +127,7 @@ h3 {
 }
 
 .menu a {
-	padding: 0;
+	padding: 0 0 10px 0;
 	color: #000000;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -139,11 +139,16 @@ h3 {
 }
 
 .menu a:hover {
-	color: #cbcbcb;
+	color: #fb565a;
 }
 
 .menu a:active {
-	color: #fb565a;
+	color: #cbcbcb;
+}
+
+.active-link {
+	margin: 0;
+	border-bottom: 2px solid #fb565a;
 }
 
 .basket {
